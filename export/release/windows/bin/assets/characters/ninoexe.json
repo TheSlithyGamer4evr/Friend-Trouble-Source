@@ -1,65 +1,65 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				120,
 				230
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "nino idle"
+			"fps": 24,
+			"name": "nino idle",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				115,
 				217
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "nino left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "nino left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				56,
 				-50
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "nino down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "nino down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				87,
 				233
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "nino up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "nino up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				255,
 				83
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "nino right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "nino right"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/ninoexe_assets",
 	"position": [
-		0,
+		-40,
 		-90
 	],
 	"healthicon": "ninoexe",
