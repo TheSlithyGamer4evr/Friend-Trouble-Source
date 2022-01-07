@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				180
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "cakie idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				44,
+				307
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "cakie left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				41,
+				166
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "cakie down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				313
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "cakie up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-33,
+				193
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "cakie right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				45,
+				308
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "cakie Left miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				174
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "cakie Down miss",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				28,
+				314
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "cakie Up miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-34,
+				194
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "cakie Right miss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cakienino_assets",
+	"position": [
+		0,
+		440
+	],
+	"healthicon": "cakie2",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		40,
+		-160
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

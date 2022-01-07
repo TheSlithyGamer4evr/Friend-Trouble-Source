@@ -1,0 +1,31 @@
+{
+	"storyName": "Friend Trouble",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "friendtrouble",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Friend Trouble",
+			"cakie",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "FRIENDTROUBLE"
+}

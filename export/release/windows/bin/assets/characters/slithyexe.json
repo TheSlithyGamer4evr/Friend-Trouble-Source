@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				407,
+				367
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "slithy idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				112,
+				371
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "slithy right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				543,
+				344
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "slithy left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				391,
+				387
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "slithy up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				361,
+				147
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "slithy down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				388,
+				380
+			],
+			"anim": "laugh",
+			"fps": 24,
+			"name": "slithy laugh",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/slithyexe_assets",
+	"position": [
+		200,
+		0
+	],
+	"healthicon": "slithyexe",
+	"flip_x": false,
+	"healthbar_colors": [
+		88,
+		89,
+		106
+	],
+	"camera_position": [
+		-370,
+		-190
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

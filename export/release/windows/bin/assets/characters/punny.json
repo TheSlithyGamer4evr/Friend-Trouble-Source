@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-33,
+				-313
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Pun Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-72,
+				-314
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Pun Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-109,
+				-314
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Pun Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-33,
+				-314
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Pun Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-53,
+				-314
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Pun Down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/TTPun",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "pun",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		153,
+		212
+	],
+	"camera_position": [
+		0,
+		330
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

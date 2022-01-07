@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Cakie BF Idle"
+		},
+		{
+			"offsets": [
+				131,
+				180
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Cakie BF Left"
+		},
+		{
+			"offsets": [
+				-19,
+				46
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Cakie BF Down"
+		},
+		{
+			"offsets": [
+				-59,
+				127
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Cakie BF Up"
+		},
+		{
+			"offsets": [
+				-118,
+				3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Cakie BF Right"
+		},
+		{
+			"offsets": [
+				130,
+				180
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "Cakie BF left Miss"
+		},
+		{
+			"offsets": [
+				-20,
+				149
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "Cakie BF down Miss"
+		},
+		{
+			"offsets": [
+				-59,
+				204
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "Cakie BF up Miss"
+		},
+		{
+			"offsets": [
+				-117,
+				80
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "Cakie BF right Miss"
+		},
+		{
+			"offsets": [
+				37,
+				51
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "cakie dies"
+		},
+		{
+			"offsets": [
+				37,
+				-25
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "deathloop"
+		},
+		{
+			"offsets": [
+				187,
+				69
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": false,
+			"name": "dead confirm"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cakietripletrouble",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "cakie",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		120,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
