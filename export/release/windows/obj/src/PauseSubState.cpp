@@ -177,7 +177,7 @@
 
 HX_DEFINE_STACK_FRAME(_hx_pos_17d383cbce329512_17_new,"PauseSubState","new",0x00d575d9,"PauseSubState.new","PauseSubState.hx",17,0x953dc7b7)
 static const ::String _hx_array_data_08e59567_3[] = {
-	HX_("Resume",cd,dd,18,3d),HX_("Restart Song",06,b6,fe,13),HX_("Change Difficulty",eb,7e,37,a6),HX_("Botplay",5b,23,fb,2e),HX_("Exit to menu",82,87,9a,a9),
+	HX_("Resume",cd,dd,18,3d),HX_("Restart Song",06,b6,fe,13),HX_("Change Difficulty",eb,7e,37,a6),HX_("Exit to menu",82,87,9a,a9),
 };
 HX_LOCAL_STACK_FRAME(_hx_pos_17d383cbce329512_129_update,"PauseSubState","update",0x6d53d230,"PauseSubState.update","PauseSubState.hx",129,0x953dc7b7)
 HX_LOCAL_STACK_FRAME(_hx_pos_17d383cbce329512_220_destroy,"PauseSubState","destroy",0xc2ba82f3,"PauseSubState.destroy","PauseSubState.hx",220,0x953dc7b7)
@@ -189,7 +189,7 @@ void PauseSubState_obj::__construct(Float x,Float y){
             	HX_GC_STACKFRAME(&_hx_pos_17d383cbce329512_17_new)
 HXLINE(  24)		this->curSelected = 0;
 HXLINE(  23)		this->difficultyChoices = ::Array_obj< ::String >::__new(0);
-HXLINE(  22)		this->menuItemsOG = ::Array_obj< ::String >::fromData( _hx_array_data_08e59567_3,5);
+HXLINE(  22)		this->menuItemsOG = ::Array_obj< ::String >::fromData( _hx_array_data_08e59567_3,4);
 HXLINE(  21)		this->menuItems = ::Array_obj< ::String >::__new(0);
 HXLINE(  34)		super::__construct();
 HXLINE(  35)		if ((::CoolUtil_obj::difficulties->length < 2)) {
