@@ -304,7 +304,7 @@ static const ::String _hx_array_data_8ca18d79_21[] = {
 static const ::String _hx_array_data_8ca18d79_22[] = {
 	HX_("Not associated",53,f0,cf,18),HX_("with",06,76,f8,4e),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_a55214e0452daa02_646_skipIntro,"TitleState","skipIntro",0xc9924038,"TitleState.skipIntro","TitleState.hx",646,0xd132a6e5)
+HX_LOCAL_STACK_FRAME(_hx_pos_a55214e0452daa02_648_skipIntro,"TitleState","skipIntro",0xc9924038,"TitleState.skipIntro","TitleState.hx",648,0xd132a6e5)
 HX_LOCAL_STACK_FRAME(_hx_pos_a55214e0452daa02_53_boot,"TitleState","boot",0x7c582f47,"TitleState.boot","TitleState.hx",53,0xd132a6e5)
 static const int _hx_array_data_8ca18d79_25[] = {
 	(int)48,
@@ -323,7 +323,7 @@ HX_LOCAL_STACK_FRAME(_hx_pos_a55214e0452daa02_554_boot,"TitleState","boot",0x7c5
 
 void TitleState_obj::__construct( ::flixel::addons::transition::TransitionData TransIn, ::flixel::addons::transition::TransitionData TransOut){
             	HX_STACKFRAME(&_hx_pos_a55214e0452daa02_51_new)
-HXLINE( 642)		this->skippedIntro = false;
+HXLINE( 644)		this->skippedIntro = false;
 HXLINE( 553)		this->sickBeats = 0;
 HXLINE( 397)		this->transitioning = false;
 HXLINE( 208)		this->swagShader = null();
@@ -911,7 +911,11 @@ HXLINE( 634)					this->addMoreText(HX_("Funkin",51,26,e4,a3),null());
             				}
             				break;
             				case (int)16: {
-HXLINE( 637)					this->skipIntro();
+HXLINE( 636)					this->addMoreText(HX_("Friend Trouble",f5,ef,d0,b7),null());
+            				}
+            				break;
+            				case (int)17: {
+HXLINE( 639)					this->skipIntro();
             				}
             				break;
             			}
@@ -920,12 +924,12 @@ HXLINE( 637)					this->skipIntro();
 
 
 void TitleState_obj::skipIntro(){
-            	HX_STACKFRAME(&_hx_pos_a55214e0452daa02_646_skipIntro)
-HXDLIN( 646)		if (!(this->skippedIntro)) {
-HXLINE( 648)			this->remove(this->ngSpr,null());
-HXLINE( 650)			::flixel::FlxG_obj::camera->flash(-1,4,null(),null());
-HXLINE( 651)			this->remove(this->credGroup,null());
-HXLINE( 652)			this->skippedIntro = true;
+            	HX_STACKFRAME(&_hx_pos_a55214e0452daa02_648_skipIntro)
+HXDLIN( 648)		if (!(this->skippedIntro)) {
+HXLINE( 650)			this->remove(this->ngSpr,null());
+HXLINE( 652)			::flixel::FlxG_obj::camera->flash(-1,4,null(),null());
+HXLINE( 653)			this->remove(this->credGroup,null());
+HXLINE( 654)			this->skippedIntro = true;
             		}
             	}
 

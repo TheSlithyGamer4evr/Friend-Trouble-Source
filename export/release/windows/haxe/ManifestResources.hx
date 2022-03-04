@@ -51,6 +51,7 @@ import sys.FileSystem;
 
 		#if (openfl && !flash && !display)
 		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_pixel_otf);
+		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_sega_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_vcr_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_monsterrat_ttf);
@@ -133,9 +134,9 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_characters_dad_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_characters_fthand_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_characters_gf_json extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_characters_gfinvisible_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_characters_handnino_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_characters_ninoexe_json extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_characters_other_him_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_characters_punexe_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_characters_punny_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_characters_slithybutsus_json extends null { }
@@ -160,24 +161,6 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_cakienino_assets_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_cakietripletrouble_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_cakietripletrouble_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_fthand_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_fthand_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_gfinvisible_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_gfinvisible_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_hand_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_hand_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_hand_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_hand_assets_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_ninoexe_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_ninoexe_assets_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_pun_exe_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_pun_exe_assets_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_slithyexe_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_slithyexe_assets_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_thejordansarecreased_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_thejordansarecreased_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_ttpun_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_characters_ttpun_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_chart_quant_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_chart_quant_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_checkboxanim_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -204,11 +187,17 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_dialogue_bf_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_dialogue_gf_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_friend_trouble_headcanon_txt extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_ft_assets_him_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_ft_assets_him_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_ft_assets_mechanic_stuff_gun_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_ft_assets_mechanic_stuff_s_lith_yjumpsca_re_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_ft_assets_mechanic_stuff_the_sus_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_funkay_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_gfdancetitle_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_gfdancetitle_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_gfdancetitle_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_hahadumb_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_him_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_hugew_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_hurtnotesplashes_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_hurtnotesplashes_xml extends null { }
@@ -244,13 +233,7 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_mainmenu_menu_options_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_mainmenu_menu_story_mode_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_mainmenu_menu_story_mode_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menubackgrounds_menu_christmas_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menubackgrounds_menu_friendtrouble_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menubackgrounds_menu_halloween_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menubackgrounds_menu_limo_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menubackgrounds_menu_philly_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menubackgrounds_menu_school_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menubackgrounds_menu_stage_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menubg_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menubgblue_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_menubgmagenta_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -542,15 +525,32 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_bad_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_daddy_dearest_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_daddy_dearest_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_fthand_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_fthand_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_gf_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_gf_assets_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_hand_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_hand_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_hand_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_hand_assets_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_ninoexe_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_ninoexe_assets_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_pun_exe_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_pun_exe_assets_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_slithyexe_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_slithyexe_assets_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_thejordansarecreased_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_thejordansarecreased_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_ttpun_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_characters_ttpun_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_combo_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_dialogue_bf_dialogue_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_dialogue_bf_dialogue_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_dialogue_gf_dialogue_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_dialogue_gf_dialogue_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_dice_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_eventarrow_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_ftbg_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_friend_bgs_ftbg_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_go_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_good_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_grafix_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -705,28 +705,29 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_custom_notetypes_slithy_note_lua extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_data_readme_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_fonts_readme_txt extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_bulletnote_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_bulletnote_assets_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_characters_readme_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_dialogue_readme_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_icons_readme_txt extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_knifenote_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_knifenote_assets_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_menubackgrounds_readme_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_menucharacters_readme_txt extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_ninonote_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_ninonote_assets_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_painnote_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_painnote_assets_xml extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_s_lith_yjumpsca_re_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_slithynote_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_slithynote_assets_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_notes_bulletnote_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_notes_bulletnote_assets_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_notes_knifenote_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_notes_knifenote_assets_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_notes_ninonote_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_notes_ninonote_assets_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_notes_painnote_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_notes_painnote_assets_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_notes_slithynote_assets_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_notes_slithynote_assets_xml extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_images_storymenu_readme_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_music_readme_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_pack_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_readme_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_scripts_readme_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_songs_readme_txt extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_sounds_missdanger_mp3 extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_sounds_missdanger_ogg extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_sounds_readme_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_stages_readme_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_videos_readme_txt extends null { }
@@ -734,6 +735,7 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__do_not_readme_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_fonts_fonts_go_here_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_fonts_pixel_otf extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_fonts_sega_ttf extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_fonts_vcr_ttf extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__flixel_sounds_beep_ogg extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__flixel_sounds_flixel_ogg extends null { }
@@ -786,6 +788,7 @@ null
 
 @:keep @:file("assets/fonts/fonts-go-here.txt") @:noCompletion #if display private #end class __ASSET__assets_fonts_fonts_go_here_txt extends haxe.io.Bytes {}
 @:keep @:font("assets/fonts/pixel.otf") @:noCompletion #if display private #end class __ASSET__assets_fonts_pixel_otf extends lime.text.Font {}
+@:keep @:font("assets/fonts/sega.ttf") @:noCompletion #if display private #end class __ASSET__assets_fonts_sega_ttf extends lime.text.Font {}
 @:keep @:font("assets/fonts/vcr.ttf") @:noCompletion #if display private #end class __ASSET__assets_fonts_vcr_ttf extends lime.text.Font {}
 @:keep @:file("C:/HaxeToolkit/haxe/lib/flixel/4,10,0/assets/sounds/beep.ogg") @:noCompletion #if display private #end class __ASSET__flixel_sounds_beep_ogg extends haxe.io.Bytes {}
 @:keep @:file("C:/HaxeToolkit/haxe/lib/flixel/4,10,0/assets/sounds/flixel.ogg") @:noCompletion #if display private #end class __ASSET__flixel_sounds_flixel_ogg extends haxe.io.Bytes {}
@@ -829,6 +832,7 @@ null
 #else
 
 @:keep @:expose('__ASSET__assets_fonts_pixel_otf') @:noCompletion #if display private #end class __ASSET__assets_fonts_pixel_otf extends lime.text.Font { public function new () { #if !html5 __fontPath = "assets/fonts/pixel.otf"; #else ascender = null; descender = null; height = null; numGlyphs = null; underlinePosition = null; underlineThickness = null; unitsPerEM = null; #end name = "Pixel Arial 11 Bold"; super (); }}
+@:keep @:expose('__ASSET__assets_fonts_sega_ttf') @:noCompletion #if display private #end class __ASSET__assets_fonts_sega_ttf extends lime.text.Font { public function new () { #if !html5 __fontPath = "assets/fonts/sega.ttf"; #else ascender = null; descender = null; height = null; numGlyphs = null; underlinePosition = null; underlineThickness = null; unitsPerEM = null; #end name = "NiseSegaSonic"; super (); }}
 @:keep @:expose('__ASSET__assets_fonts_vcr_ttf') @:noCompletion #if display private #end class __ASSET__assets_fonts_vcr_ttf extends lime.text.Font { public function new () { #if !html5 __fontPath = "assets/fonts/vcr.ttf"; #else ascender = null; descender = null; height = null; numGlyphs = null; underlinePosition = null; underlineThickness = null; unitsPerEM = null; #end name = "VCR OSD Mono"; super (); }}
 @:keep @:expose('__ASSET__flixel_fonts_nokiafc22_ttf') @:noCompletion #if display private #end class __ASSET__flixel_fonts_nokiafc22_ttf extends lime.text.Font { public function new () { #if !html5 __fontPath = "flixel/fonts/nokiafc22.ttf"; #else ascender = null; descender = null; height = null; numGlyphs = null; underlinePosition = null; underlineThickness = null; unitsPerEM = null; #end name = "Nokia Cellphone FC Small"; super (); }}
 @:keep @:expose('__ASSET__flixel_fonts_monsterrat_ttf') @:noCompletion #if display private #end class __ASSET__flixel_fonts_monsterrat_ttf extends lime.text.Font { public function new () { #if !html5 __fontPath = "flixel/fonts/monsterrat.ttf"; #else ascender = null; descender = null; height = null; numGlyphs = null; underlinePosition = null; underlineThickness = null; unitsPerEM = null; #end name = "Monsterrat"; super (); }}
@@ -840,12 +844,14 @@ null
 
 #if html5
 @:keep @:expose('__ASSET__OPENFL__assets_fonts_pixel_otf') @:noCompletion #if display private #end class __ASSET__OPENFL__assets_fonts_pixel_otf extends openfl.text.Font { public function new () { __fromLimeFont (new __ASSET__assets_fonts_pixel_otf ()); super (); }}
+@:keep @:expose('__ASSET__OPENFL__assets_fonts_sega_ttf') @:noCompletion #if display private #end class __ASSET__OPENFL__assets_fonts_sega_ttf extends openfl.text.Font { public function new () { __fromLimeFont (new __ASSET__assets_fonts_sega_ttf ()); super (); }}
 @:keep @:expose('__ASSET__OPENFL__assets_fonts_vcr_ttf') @:noCompletion #if display private #end class __ASSET__OPENFL__assets_fonts_vcr_ttf extends openfl.text.Font { public function new () { __fromLimeFont (new __ASSET__assets_fonts_vcr_ttf ()); super (); }}
 @:keep @:expose('__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf') @:noCompletion #if display private #end class __ASSET__OPENFL__flixel_fonts_nokiafc22_ttf extends openfl.text.Font { public function new () { __fromLimeFont (new __ASSET__flixel_fonts_nokiafc22_ttf ()); super (); }}
 @:keep @:expose('__ASSET__OPENFL__flixel_fonts_monsterrat_ttf') @:noCompletion #if display private #end class __ASSET__OPENFL__flixel_fonts_monsterrat_ttf extends openfl.text.Font { public function new () { __fromLimeFont (new __ASSET__flixel_fonts_monsterrat_ttf ()); super (); }}
 
 #else
 @:keep @:expose('__ASSET__OPENFL__assets_fonts_pixel_otf') @:noCompletion #if display private #end class __ASSET__OPENFL__assets_fonts_pixel_otf extends openfl.text.Font { public function new () { __fromLimeFont (new __ASSET__assets_fonts_pixel_otf ()); super (); }}
+@:keep @:expose('__ASSET__OPENFL__assets_fonts_sega_ttf') @:noCompletion #if display private #end class __ASSET__OPENFL__assets_fonts_sega_ttf extends openfl.text.Font { public function new () { __fromLimeFont (new __ASSET__assets_fonts_sega_ttf ()); super (); }}
 @:keep @:expose('__ASSET__OPENFL__assets_fonts_vcr_ttf') @:noCompletion #if display private #end class __ASSET__OPENFL__assets_fonts_vcr_ttf extends openfl.text.Font { public function new () { __fromLimeFont (new __ASSET__assets_fonts_vcr_ttf ()); super (); }}
 @:keep @:expose('__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf') @:noCompletion #if display private #end class __ASSET__OPENFL__flixel_fonts_nokiafc22_ttf extends openfl.text.Font { public function new () { __fromLimeFont (new __ASSET__flixel_fonts_nokiafc22_ttf ()); super (); }}
 @:keep @:expose('__ASSET__OPENFL__flixel_fonts_monsterrat_ttf') @:noCompletion #if display private #end class __ASSET__OPENFL__flixel_fonts_monsterrat_ttf extends openfl.text.Font { public function new () { __fromLimeFont (new __ASSET__flixel_fonts_monsterrat_ttf ()); super (); }}

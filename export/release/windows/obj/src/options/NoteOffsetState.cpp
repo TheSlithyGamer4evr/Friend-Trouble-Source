@@ -198,29 +198,29 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_114bb637251102ea_19_new,"options.NoteOffsetState","new",0xdb7c446e,"options.NoteOffsetState.new","options/NoteOffsetState.hx",19,0x7563b703)
-HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_45_create,"options.NoteOffsetState","create",0xbfe86fae,"options.NoteOffsetState.create","options/NoteOffsetState.hx",45,0x7563b703)
-HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_210_update,"options.NoteOffsetState","update",0xcade8ebb,"options.NoteOffsetState.update","options/NoteOffsetState.hx",210,0x7563b703)
-HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_369_beatHit,"options.NoteOffsetState","beatHit",0x8e137d8b,"options.NoteOffsetState.beatHit","options/NoteOffsetState.hx",369,0x7563b703)
-HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_390_beatHit,"options.NoteOffsetState","beatHit",0x8e137d8b,"options.NoteOffsetState.beatHit","options/NoteOffsetState.hx",390,0x7563b703)
-HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_400_beatHit,"options.NoteOffsetState","beatHit",0x8e137d8b,"options.NoteOffsetState.beatHit","options/NoteOffsetState.hx",400,0x7563b703)
-HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_409_repositionCombo,"options.NoteOffsetState","repositionCombo",0xdb584c60,"options.NoteOffsetState.repositionCombo","options/NoteOffsetState.hx",409,0x7563b703)
-HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_422_createTexts,"options.NoteOffsetState","createTexts",0x6704b498,"options.NoteOffsetState.createTexts","options/NoteOffsetState.hx",422,0x7563b703)
-HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_440_reloadTexts,"options.NoteOffsetState","reloadTexts",0x992dd71b,"options.NoteOffsetState.reloadTexts","options/NoteOffsetState.hx",440,0x7563b703)
-HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_453_updateNoteDelay,"options.NoteOffsetState","updateNoteDelay",0x64cc43f6,"options.NoteOffsetState.updateNoteDelay","options/NoteOffsetState.hx",453,0x7563b703)
-HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_459_updateMode,"options.NoteOffsetState","updateMode",0x576607be,"options.NoteOffsetState.updateMode","options/NoteOffsetState.hx",459,0x7563b703)
+HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_44_create,"options.NoteOffsetState","create",0xbfe86fae,"options.NoteOffsetState.create","options/NoteOffsetState.hx",44,0x7563b703)
+HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_204_update,"options.NoteOffsetState","update",0xcade8ebb,"options.NoteOffsetState.update","options/NoteOffsetState.hx",204,0x7563b703)
+HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_363_beatHit,"options.NoteOffsetState","beatHit",0x8e137d8b,"options.NoteOffsetState.beatHit","options/NoteOffsetState.hx",363,0x7563b703)
+HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_383_beatHit,"options.NoteOffsetState","beatHit",0x8e137d8b,"options.NoteOffsetState.beatHit","options/NoteOffsetState.hx",383,0x7563b703)
+HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_393_beatHit,"options.NoteOffsetState","beatHit",0x8e137d8b,"options.NoteOffsetState.beatHit","options/NoteOffsetState.hx",393,0x7563b703)
+HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_402_repositionCombo,"options.NoteOffsetState","repositionCombo",0xdb584c60,"options.NoteOffsetState.repositionCombo","options/NoteOffsetState.hx",402,0x7563b703)
+HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_415_createTexts,"options.NoteOffsetState","createTexts",0x6704b498,"options.NoteOffsetState.createTexts","options/NoteOffsetState.hx",415,0x7563b703)
+HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_433_reloadTexts,"options.NoteOffsetState","reloadTexts",0x992dd71b,"options.NoteOffsetState.reloadTexts","options/NoteOffsetState.hx",433,0x7563b703)
+HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_446_updateNoteDelay,"options.NoteOffsetState","updateNoteDelay",0x64cc43f6,"options.NoteOffsetState.updateNoteDelay","options/NoteOffsetState.hx",446,0x7563b703)
+HX_LOCAL_STACK_FRAME(_hx_pos_114bb637251102ea_452_updateMode,"options.NoteOffsetState","updateMode",0x576607be,"options.NoteOffsetState.updateMode","options/NoteOffsetState.hx",452,0x7563b703)
 namespace options{
 
 void NoteOffsetState_obj::__construct( ::flixel::addons::transition::TransitionData TransIn, ::flixel::addons::transition::TransitionData TransOut){
             	HX_GC_STACKFRAME(&_hx_pos_114bb637251102ea_19_new)
-HXLINE( 367)		this->lastBeatHit = -1;
-HXLINE( 207)		this->startComboOffset =  ::flixel::math::FlxPoint_obj::__alloc( HX_CTX ,null(),null());
-HXLINE( 206)		this->startMousePos =  ::flixel::math::FlxPoint_obj::__alloc( HX_CTX ,null(),null());
-HXLINE( 204)		this->holdingObjectType = null();
-HXLINE( 203)		this->onComboMenu = true;
-HXLINE( 202)		this->holdTime = ((Float)0);
-HXLINE(  35)		this->delayMax = 500;
-HXLINE(  34)		this->delayMin = 0;
-HXLINE(  33)		this->barPercent = ((Float)0);
+HXLINE( 361)		this->lastBeatHit = -1;
+HXLINE( 201)		this->startComboOffset =  ::flixel::math::FlxPoint_obj::__alloc( HX_CTX ,null(),null());
+HXLINE( 200)		this->startMousePos =  ::flixel::math::FlxPoint_obj::__alloc( HX_CTX ,null(),null());
+HXLINE( 198)		this->holdingObjectType = null();
+HXLINE( 197)		this->onComboMenu = true;
+HXLINE( 196)		this->holdTime = ((Float)0);
+HXLINE(  34)		this->delayMax = 500;
+HXLINE(  33)		this->delayMin = 0;
+HXLINE(  32)		this->barPercent = ((Float)0);
 HXLINE(  19)		super::__construct(TransIn,TransOut);
             	}
 
@@ -256,623 +256,611 @@ bool NoteOffsetState_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void NoteOffsetState_obj::create(){
-            	HX_GC_STACKFRAME(&_hx_pos_114bb637251102ea_45_create)
-HXLINE(  47)		this->camGame =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
-HXLINE(  48)		this->camHUD =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
-HXLINE(  49)		this->camOther =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_114bb637251102ea_44_create)
+HXLINE(  46)		this->camGame =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
+HXLINE(  47)		this->camHUD =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
+HXLINE(  48)		this->camOther =  ::flixel::FlxCamera_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null());
+HXLINE(  49)		{
+HXLINE(  49)			 ::flixel::FlxCamera _hx_tmp = this->camHUD;
+HXDLIN(  49)			_hx_tmp->bgColor = (_hx_tmp->bgColor & 16777215);
+HXDLIN(  49)			 ::flixel::FlxCamera _hx_tmp1 = this->camHUD;
+HXDLIN(  49)			_hx_tmp1->bgColor = (_hx_tmp1->bgColor | 0);
+            		}
 HXLINE(  50)		{
-HXLINE(  50)			 ::flixel::FlxCamera _hx_tmp = this->camHUD;
-HXDLIN(  50)			_hx_tmp->bgColor = (_hx_tmp->bgColor & 16777215);
-HXDLIN(  50)			 ::flixel::FlxCamera _hx_tmp1 = this->camHUD;
-HXDLIN(  50)			_hx_tmp1->bgColor = (_hx_tmp1->bgColor | 0);
+HXLINE(  50)			 ::flixel::FlxCamera _hx_tmp2 = this->camOther;
+HXDLIN(  50)			_hx_tmp2->bgColor = (_hx_tmp2->bgColor & 16777215);
+HXDLIN(  50)			 ::flixel::FlxCamera _hx_tmp3 = this->camOther;
+HXDLIN(  50)			_hx_tmp3->bgColor = (_hx_tmp3->bgColor | 0);
             		}
-HXLINE(  51)		{
-HXLINE(  51)			 ::flixel::FlxCamera _hx_tmp2 = this->camOther;
-HXDLIN(  51)			_hx_tmp2->bgColor = (_hx_tmp2->bgColor & 16777215);
-HXDLIN(  51)			 ::flixel::FlxCamera _hx_tmp3 = this->camOther;
-HXDLIN(  51)			_hx_tmp3->bgColor = (_hx_tmp3->bgColor | 0);
+HXLINE(  52)		::flixel::FlxG_obj::cameras->reset(this->camGame);
+HXLINE(  53)		::flixel::FlxG_obj::cameras->add(this->camHUD,null()).StaticCast<  ::flixel::FlxCamera >();
+HXLINE(  54)		::flixel::FlxG_obj::cameras->add(this->camOther,null()).StaticCast<  ::flixel::FlxCamera >();
+HXLINE(  56)		::flixel::FlxCamera_obj::_defaultCameras = ::Array_obj< ::Dynamic>::__new(1)->init(0,this->camGame);
+HXLINE(  57)		::CustomFadeTransition_obj::nextCamera = this->camOther;
+HXLINE(  58)		::flixel::FlxG_obj::camera->scroll->set(120,130);
+HXLINE(  60)		this->persistentUpdate = true;
+HXLINE(  61)		::flixel::FlxG_obj::sound->pause();
+HXLINE(  63)		 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("dice",67,59,69,42),-300,-400,((Float)0.9),((Float)0.9),null(),null());
+HXLINE(  64)		this->add(bg);
+HXLINE(  66)		 ::BGSprite stageFront =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stagefront",2b,fd,b0,c6),-1050,600,((Float)0.9),((Float)0.9),null(),null());
+HXLINE(  67)		stageFront->setGraphicSize(::Std_obj::_hx_int((stageFront->get_width() * ((Float)1.1))),null());
+HXLINE(  68)		stageFront->updateHitbox();
+HXLINE(  71)		if (!(::ClientPrefs_obj::lowQuality)) {
+HXLINE(  72)			 ::BGSprite stageLight =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stage_light",55,e5,48,cf),-125,-100,((Float)0.9),((Float)0.9),null(),null());
+HXLINE(  73)			stageLight->setGraphicSize(::Std_obj::_hx_int((stageLight->get_width() * ((Float)1.1))),null());
+HXLINE(  74)			stageLight->updateHitbox();
+HXLINE(  76)			 ::BGSprite stageLight1 =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stage_light",55,e5,48,cf),1225,-100,((Float)0.9),((Float)0.9),null(),null());
+HXLINE(  77)			stageLight1->setGraphicSize(::Std_obj::_hx_int((stageLight1->get_width() * ((Float)1.1))),null());
+HXLINE(  78)			stageLight1->updateHitbox();
+HXLINE(  79)			stageLight1->set_flipX(true);
+HXLINE(  82)			 ::BGSprite stageCurtains =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stagecurtains",df,ec,1a,4b),-500,-300,((Float)1.3),((Float)1.3),null(),null());
+HXLINE(  83)			stageCurtains->setGraphicSize(::Std_obj::_hx_int((stageCurtains->get_width() * ((Float)0.9))),null());
+HXLINE(  84)			stageCurtains->updateHitbox();
             		}
-HXLINE(  53)		::flixel::FlxG_obj::cameras->reset(this->camGame);
-HXLINE(  54)		::flixel::FlxG_obj::cameras->add(this->camHUD,null()).StaticCast<  ::flixel::FlxCamera >();
-HXLINE(  55)		::flixel::FlxG_obj::cameras->add(this->camOther,null()).StaticCast<  ::flixel::FlxCamera >();
-HXLINE(  57)		::flixel::FlxCamera_obj::_defaultCameras = ::Array_obj< ::Dynamic>::__new(1)->init(0,this->camGame);
-HXLINE(  58)		::CustomFadeTransition_obj::nextCamera = this->camOther;
-HXLINE(  59)		::flixel::FlxG_obj::camera->scroll->set(120,130);
-HXLINE(  61)		this->persistentUpdate = true;
-HXLINE(  62)		::flixel::FlxG_obj::sound->pause();
-HXLINE(  64)		 ::BGSprite bg =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stageback",e5,7b,3b,06),-600,-200,((Float)0.9),((Float)0.9),null(),null());
-HXLINE(  65)		this->add(bg);
-HXLINE(  67)		 ::BGSprite stageFront =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stagefront",2b,fd,b0,c6),-650,600,((Float)0.9),((Float)0.9),null(),null());
-HXLINE(  68)		stageFront->setGraphicSize(::Std_obj::_hx_int((stageFront->get_width() * ((Float)1.1))),null());
-HXLINE(  69)		stageFront->updateHitbox();
-HXLINE(  70)		this->add(stageFront);
-HXLINE(  72)		if (!(::ClientPrefs_obj::lowQuality)) {
-HXLINE(  73)			 ::BGSprite stageLight =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stage_light",55,e5,48,cf),-125,-100,((Float)0.9),((Float)0.9),null(),null());
-HXLINE(  74)			stageLight->setGraphicSize(::Std_obj::_hx_int((stageLight->get_width() * ((Float)1.1))),null());
-HXLINE(  75)			stageLight->updateHitbox();
-HXLINE(  76)			this->add(stageLight);
-HXLINE(  77)			 ::BGSprite stageLight1 =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stage_light",55,e5,48,cf),1225,-100,((Float)0.9),((Float)0.9),null(),null());
-HXLINE(  78)			stageLight1->setGraphicSize(::Std_obj::_hx_int((stageLight1->get_width() * ((Float)1.1))),null());
-HXLINE(  79)			stageLight1->updateHitbox();
-HXLINE(  80)			stageLight1->set_flipX(true);
-HXLINE(  81)			this->add(stageLight1);
-HXLINE(  83)			 ::BGSprite stageCurtains =  ::BGSprite_obj::__alloc( HX_CTX ,HX_("stagecurtains",df,ec,1a,4b),-500,-300,((Float)1.3),((Float)1.3),null(),null());
-HXLINE(  84)			stageCurtains->setGraphicSize(::Std_obj::_hx_int((stageCurtains->get_width() * ((Float)0.9))),null());
-HXLINE(  85)			stageCurtains->updateHitbox();
-HXLINE(  86)			this->add(stageCurtains);
-            		}
-HXLINE(  90)		this->gf =  ::Character_obj::__alloc( HX_CTX ,( (Float)(400) ),( (Float)(130) ),HX_("gf",1f,5a,00,00),null());
-HXLINE(  91)		 ::Character fh = this->gf;
-HXDLIN(  91)		fh->set_x((fh->x + this->gf->positionArray->__get(0)));
-HXLINE(  92)		 ::Character fh1 = this->gf;
-HXDLIN(  92)		fh1->set_y((fh1->y + this->gf->positionArray->__get(1)));
-HXLINE(  93)		this->gf->scrollFactor->set(((Float)0.95),((Float)0.95));
-HXLINE(  94)		this->boyfriend =  ::Character_obj::__alloc( HX_CTX ,( (Float)(770) ),( (Float)(100) ),HX_("bf",c4,55,00,00),true);
-HXLINE(  95)		 ::Character fh2 = this->boyfriend;
-HXDLIN(  95)		fh2->set_x((fh2->x + this->boyfriend->positionArray->__get(0)));
-HXLINE(  96)		 ::Character fh3 = this->boyfriend;
-HXDLIN(  96)		fh3->set_y((fh3->y + this->boyfriend->positionArray->__get(1)));
-HXLINE(  97)		this->add(this->gf);
-HXLINE(  98)		this->add(this->boyfriend);
-HXLINE( 102)		this->coolText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,0,0,HX_("",00,00,00,00),32,null());
-HXLINE( 103)		this->coolText->screenCenter(null());
-HXLINE( 104)		this->coolText->set_x((( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.35)));
-HXLINE( 106)		 ::flixel::FlxSprite _hx_tmp4 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXDLIN( 106)		::String library = null();
-HXDLIN( 106)		 ::flixel::graphics::FlxGraphic imageToReturn = ::Paths_obj::addCustomGraphic(HX_("sick",be,8c,53,4c));
-HXDLIN( 106)		 ::Dynamic _hx_tmp5;
-HXDLIN( 106)		if (::hx::IsNotNull( imageToReturn )) {
-HXLINE( 106)			_hx_tmp5 = imageToReturn;
+HXLINE(  89)		this->boyfriend =  ::Character_obj::__alloc( HX_CTX ,( (Float)(770) ),( (Float)(100) ),HX_("cakiebfnino",e9,7e,a8,ed),true);
+HXLINE(  90)		 ::Character fh = this->boyfriend;
+HXDLIN(  90)		fh->set_x((fh->x + this->boyfriend->positionArray->__get(0)));
+HXLINE(  91)		 ::Character fh1 = this->boyfriend;
+HXDLIN(  91)		fh1->set_y((fh1->y + this->boyfriend->positionArray->__get(1)));
+HXLINE(  92)		this->add(this->boyfriend);
+HXLINE(  96)		this->coolText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,0,0,HX_("",00,00,00,00),32,null());
+HXLINE(  97)		this->coolText->screenCenter(null());
+HXLINE(  98)		this->coolText->set_x((( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.35)));
+HXLINE( 100)		 ::flixel::FlxSprite _hx_tmp4 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXDLIN( 100)		::String library = null();
+HXDLIN( 100)		 ::flixel::graphics::FlxGraphic imageToReturn = ::Paths_obj::addCustomGraphic(HX_("sick",be,8c,53,4c));
+HXDLIN( 100)		 ::Dynamic _hx_tmp5;
+HXDLIN( 100)		if (::hx::IsNotNull( imageToReturn )) {
+HXLINE( 100)			_hx_tmp5 = imageToReturn;
             		}
             		else {
-HXLINE( 106)			_hx_tmp5 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("sick",be,8c,53,4c)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
+HXLINE( 100)			_hx_tmp5 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("sick",be,8c,53,4c)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
             		}
-HXDLIN( 106)		this->rating = _hx_tmp4->loadGraphic(_hx_tmp5,null(),null(),null(),null(),null());
-HXLINE( 107)		this->rating->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE( 108)		 ::flixel::FlxSprite _hx_tmp6 = this->rating;
-HXDLIN( 108)		_hx_tmp6->setGraphicSize(::Std_obj::_hx_int((this->rating->get_width() * ((Float)0.7))),null());
-HXLINE( 109)		this->rating->updateHitbox();
-HXLINE( 110)		this->rating->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
-HXLINE( 112)		this->add(this->rating);
-HXLINE( 114)		this->comboNums =  ::flixel::group::FlxTypedSpriteGroup_obj::__alloc( HX_CTX ,null(),null(),null());
-HXLINE( 115)		this->comboNums->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE( 116)		this->add(this->comboNums);
-HXLINE( 118)		::Array< int > seperatedScore = ::Array_obj< int >::__new(0);
+HXDLIN( 100)		this->rating = _hx_tmp4->loadGraphic(_hx_tmp5,null(),null(),null(),null(),null());
+HXLINE( 101)		this->rating->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE( 102)		 ::flixel::FlxSprite _hx_tmp6 = this->rating;
+HXDLIN( 102)		_hx_tmp6->setGraphicSize(::Std_obj::_hx_int((this->rating->get_width() * ((Float)0.7))),null());
+HXLINE( 103)		this->rating->updateHitbox();
+HXLINE( 104)		this->rating->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
+HXLINE( 106)		this->add(this->rating);
+HXLINE( 108)		this->comboNums =  ::flixel::group::FlxTypedSpriteGroup_obj::__alloc( HX_CTX ,null(),null(),null());
+HXLINE( 109)		this->comboNums->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE( 110)		this->add(this->comboNums);
+HXLINE( 112)		::Array< int > seperatedScore = ::Array_obj< int >::__new(0);
+HXLINE( 113)		{
+HXLINE( 115)			seperatedScore->push(::flixel::FlxG_obj::random->_hx_int(0,9,null()));
+HXDLIN( 115)			seperatedScore->push(::flixel::FlxG_obj::random->_hx_int(0,9,null()));
+HXDLIN( 115)			seperatedScore->push(::flixel::FlxG_obj::random->_hx_int(0,9,null()));
+            		}
+HXLINE( 118)		int daLoop = 0;
 HXLINE( 119)		{
-HXLINE( 121)			seperatedScore->push(::flixel::FlxG_obj::random->_hx_int(0,9,null()));
-HXDLIN( 121)			seperatedScore->push(::flixel::FlxG_obj::random->_hx_int(0,9,null()));
-HXDLIN( 121)			seperatedScore->push(::flixel::FlxG_obj::random->_hx_int(0,9,null()));
-            		}
-HXLINE( 124)		int daLoop = 0;
-HXLINE( 125)		{
-HXLINE( 125)			int _g = 0;
-HXDLIN( 125)			while((_g < seperatedScore->length)){
-HXLINE( 125)				int i = seperatedScore->__get(_g);
-HXDLIN( 125)				_g = (_g + 1);
-HXLINE( 127)				 ::flixel::FlxSprite numScore =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(43 * daLoop),null(),null());
-HXDLIN( 127)				::String key = (HX_("num",46,de,53,00) + i);
-HXDLIN( 127)				::String library = null();
-HXDLIN( 127)				 ::flixel::graphics::FlxGraphic imageToReturn = ::Paths_obj::addCustomGraphic(key);
-HXDLIN( 127)				 ::Dynamic numScore1;
-HXDLIN( 127)				if (::hx::IsNotNull( imageToReturn )) {
-HXLINE( 127)					numScore1 = imageToReturn;
+HXLINE( 119)			int _g = 0;
+HXDLIN( 119)			while((_g < seperatedScore->length)){
+HXLINE( 119)				int i = seperatedScore->__get(_g);
+HXDLIN( 119)				_g = (_g + 1);
+HXLINE( 121)				 ::flixel::FlxSprite numScore =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(43 * daLoop),null(),null());
+HXDLIN( 121)				::String key = (HX_("num",46,de,53,00) + i);
+HXDLIN( 121)				::String library = null();
+HXDLIN( 121)				 ::flixel::graphics::FlxGraphic imageToReturn = ::Paths_obj::addCustomGraphic(key);
+HXDLIN( 121)				 ::Dynamic numScore1;
+HXDLIN( 121)				if (::hx::IsNotNull( imageToReturn )) {
+HXLINE( 121)					numScore1 = imageToReturn;
             				}
             				else {
-HXLINE( 127)					numScore1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + key) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
+HXLINE( 121)					numScore1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + key) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
             				}
-HXDLIN( 127)				 ::flixel::FlxSprite numScore2 = numScore->loadGraphic(numScore1,null(),null(),null(),null(),null());
-HXLINE( 128)				numScore2->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE( 129)				numScore2->setGraphicSize(::Std_obj::_hx_int((numScore2->get_width() * ((Float)0.5))),null());
-HXLINE( 130)				numScore2->updateHitbox();
-HXLINE( 131)				numScore2->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
-HXLINE( 132)				this->comboNums->add(numScore2).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 133)				daLoop = (daLoop + 1);
+HXDLIN( 121)				 ::flixel::FlxSprite numScore2 = numScore->loadGraphic(numScore1,null(),null(),null(),null(),null());
+HXLINE( 122)				numScore2->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE( 123)				numScore2->setGraphicSize(::Std_obj::_hx_int((numScore2->get_width() * ((Float)0.5))),null());
+HXLINE( 124)				numScore2->updateHitbox();
+HXLINE( 125)				numScore2->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
+HXLINE( 126)				this->comboNums->add(numScore2).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 127)				daLoop = (daLoop + 1);
             			}
             		}
-HXLINE( 136)		this->dumbTexts =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE( 137)		this->dumbTexts->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE( 138)		this->add(this->dumbTexts);
-HXLINE( 139)		this->createTexts();
-HXLINE( 141)		this->repositionCombo();
-HXLINE( 145)		this->beatText =  ::Alphabet_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),HX_("Beat Hit!",58,f1,e5,b2),true,false,((Float)0.05),((Float)0.6));
-HXLINE( 146)		 ::Alphabet fh4 = this->beatText;
-HXDLIN( 146)		fh4->set_x((fh4->x + 260));
-HXLINE( 147)		this->beatText->set_alpha(( (Float)(0) ));
-HXLINE( 148)		this->beatText->acceleration->set_y(( (Float)(250) ));
-HXLINE( 149)		this->beatText->set_visible(false);
-HXLINE( 150)		this->add(this->beatText);
-HXLINE( 152)		this->timeTxt =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,600,::flixel::FlxG_obj::width,HX_("",00,00,00,00),32,null());
-HXLINE( 153)		 ::flixel::text::FlxText _hx_tmp7 = this->timeTxt;
-HXDLIN( 153)		::String file = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
-HXDLIN( 153)		::String _hx_tmp8;
-HXDLIN( 153)		if (::sys::FileSystem_obj::exists(file)) {
-HXLINE( 153)			_hx_tmp8 = file;
+HXLINE( 130)		this->dumbTexts =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE( 131)		this->dumbTexts->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE( 132)		this->add(this->dumbTexts);
+HXLINE( 133)		this->createTexts();
+HXLINE( 135)		this->repositionCombo();
+HXLINE( 139)		this->beatText =  ::Alphabet_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),HX_("Beat Hit!",58,f1,e5,b2),true,false,((Float)0.05),((Float)0.6));
+HXLINE( 140)		 ::Alphabet fh2 = this->beatText;
+HXDLIN( 140)		fh2->set_x((fh2->x + 260));
+HXLINE( 141)		this->beatText->set_alpha(( (Float)(0) ));
+HXLINE( 142)		this->beatText->acceleration->set_y(( (Float)(250) ));
+HXLINE( 143)		this->beatText->set_visible(false);
+HXLINE( 144)		this->add(this->beatText);
+HXLINE( 146)		this->timeTxt =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,600,::flixel::FlxG_obj::width,HX_("",00,00,00,00),32,null());
+HXLINE( 147)		 ::flixel::text::FlxText _hx_tmp7 = this->timeTxt;
+HXDLIN( 147)		::String file = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
+HXDLIN( 147)		::String _hx_tmp8;
+HXDLIN( 147)		if (::sys::FileSystem_obj::exists(file)) {
+HXLINE( 147)			_hx_tmp8 = file;
             		}
             		else {
-HXLINE( 153)			_hx_tmp8 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
+HXLINE( 147)			_hx_tmp8 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
             		}
-HXDLIN( 153)		_hx_tmp7->setFormat(_hx_tmp8,32,-1,HX_("center",d5,25,db,05),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
-HXLINE( 154)		this->timeTxt->scrollFactor->set(null(),null());
-HXLINE( 155)		this->timeTxt->set_borderSize(( (Float)(2) ));
-HXLINE( 156)		this->timeTxt->set_visible(false);
-HXLINE( 157)		this->timeTxt->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE( 159)		this->barPercent = ( (Float)(::ClientPrefs_obj::noteOffset) );
-HXLINE( 160)		this->updateNoteDelay();
-HXLINE( 162)		 ::flixel::FlxSprite _hx_tmp9 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,(this->timeTxt->y + 8),null());
-HXDLIN( 162)		::String library1 = null();
-HXDLIN( 162)		 ::flixel::graphics::FlxGraphic imageToReturn1 = ::Paths_obj::addCustomGraphic(HX_("timeBar",c6,e3,d4,d8));
-HXDLIN( 162)		 ::Dynamic _hx_tmp10;
-HXDLIN( 162)		if (::hx::IsNotNull( imageToReturn1 )) {
-HXLINE( 162)			_hx_tmp10 = imageToReturn1;
-            		}
-            		else {
-HXLINE( 162)			_hx_tmp10 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("timeBar",c6,e3,d4,d8)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library1);
-            		}
-HXDLIN( 162)		this->timeBarBG = _hx_tmp9->loadGraphic(_hx_tmp10,null(),null(),null(),null(),null());
-HXLINE( 163)		 ::flixel::FlxSprite _hx_tmp11 = this->timeBarBG;
-HXDLIN( 163)		_hx_tmp11->setGraphicSize(::Std_obj::_hx_int((this->timeBarBG->get_width() * ((Float)1.2))),null());
-HXLINE( 164)		this->timeBarBG->updateHitbox();
-HXLINE( 165)		this->timeBarBG->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE( 166)		this->timeBarBG->screenCenter(::flixel::util::FlxAxes_obj::X_dyn());
-HXLINE( 167)		this->timeBarBG->set_visible(false);
-HXLINE( 169)		Float _hx_tmp12 = (this->timeBarBG->y + 4);
-HXDLIN( 169)		int _hx_tmp13 = ::Std_obj::_hx_int((this->timeBarBG->get_width() - ( (Float)(8) )));
-HXDLIN( 169)		int _hx_tmp14 = ::Std_obj::_hx_int((this->timeBarBG->get_height() - ( (Float)(8) )));
-HXDLIN( 169)		this->timeBar =  ::flixel::ui::FlxBar_obj::__alloc( HX_CTX ,0,_hx_tmp12,::flixel::ui::FlxBarFillDirection_obj::LEFT_TO_RIGHT_dyn(),_hx_tmp13,_hx_tmp14,::hx::ObjectPtr<OBJ_>(this),HX_("barPercent",32,51,9d,48),this->delayMin,this->delayMax,null());
-HXLINE( 170)		this->timeBar->scrollFactor->set(null(),null());
-HXLINE( 171)		this->timeBar->screenCenter(::flixel::util::FlxAxes_obj::X_dyn());
-HXLINE( 172)		this->timeBar->createFilledBar(-16777216,-1,null(),null());
-HXLINE( 173)		this->timeBar->set_numDivisions(800);
-HXLINE( 174)		this->timeBar->set_visible(false);
-HXLINE( 175)		this->timeBar->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE( 177)		this->add(this->timeBarBG);
-HXLINE( 178)		this->add(this->timeBar);
-HXLINE( 179)		this->add(this->timeTxt);
-HXLINE( 183)		 ::flixel::FlxSprite blackBox =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null())->makeGraphic(::flixel::FlxG_obj::width,40,-16777216,null(),null());
-HXLINE( 184)		blackBox->scrollFactor->set(null(),null());
-HXLINE( 185)		blackBox->set_alpha(((Float)0.6));
-HXLINE( 186)		blackBox->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE( 187)		this->add(blackBox);
-HXLINE( 189)		this->changeModeText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,4,::flixel::FlxG_obj::width,HX_("",00,00,00,00),32,null());
-HXLINE( 190)		 ::flixel::text::FlxText _hx_tmp15 = this->changeModeText;
-HXDLIN( 190)		::String file1 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
-HXDLIN( 190)		::String _hx_tmp16;
-HXDLIN( 190)		if (::sys::FileSystem_obj::exists(file1)) {
-HXLINE( 190)			_hx_tmp16 = file1;
+HXDLIN( 147)		_hx_tmp7->setFormat(_hx_tmp8,32,-1,HX_("center",d5,25,db,05),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
+HXLINE( 148)		this->timeTxt->scrollFactor->set(null(),null());
+HXLINE( 149)		this->timeTxt->set_borderSize(( (Float)(2) ));
+HXLINE( 150)		this->timeTxt->set_visible(false);
+HXLINE( 151)		this->timeTxt->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE( 153)		this->barPercent = ( (Float)(::ClientPrefs_obj::noteOffset) );
+HXLINE( 154)		this->updateNoteDelay();
+HXLINE( 156)		 ::flixel::FlxSprite _hx_tmp9 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,(this->timeTxt->y + 8),null());
+HXDLIN( 156)		::String library1 = null();
+HXDLIN( 156)		 ::flixel::graphics::FlxGraphic imageToReturn1 = ::Paths_obj::addCustomGraphic(HX_("timeBar",c6,e3,d4,d8));
+HXDLIN( 156)		 ::Dynamic _hx_tmp10;
+HXDLIN( 156)		if (::hx::IsNotNull( imageToReturn1 )) {
+HXLINE( 156)			_hx_tmp10 = imageToReturn1;
             		}
             		else {
-HXLINE( 190)			_hx_tmp16 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
+HXLINE( 156)			_hx_tmp10 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("timeBar",c6,e3,d4,d8)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library1);
             		}
-HXDLIN( 190)		_hx_tmp15->setFormat(_hx_tmp16,32,-1,HX_("center",d5,25,db,05),null(),null(),null());
-HXLINE( 191)		this->changeModeText->scrollFactor->set(null(),null());
-HXLINE( 192)		this->changeModeText->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE( 193)		this->add(this->changeModeText);
-HXLINE( 194)		this->updateMode();
-HXLINE( 196)		::Conductor_obj::changeBPM(((Float)128.0));
-HXLINE( 197)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp17 = ::flixel::FlxG_obj::sound;
-HXDLIN( 197)		::String library2 = null();
-HXDLIN( 197)		::String file2 = ::Paths_obj::modFolders((((HX_("music/",ea,bf,1b,3f) + HX_("offsetSong",08,ad,6f,48)) + HX_(".",2e,00,00,00)) + HX_("ogg",4f,94,54,00)));
-HXDLIN( 197)		 ::Dynamic _hx_tmp18;
-HXDLIN( 197)		if (::sys::FileSystem_obj::exists(file2)) {
-HXLINE( 197)			if (!(::Paths_obj::customSoundsLoaded->exists(file2))) {
-HXLINE( 197)				::Dynamic this1 = ::Paths_obj::customSoundsLoaded;
-HXDLIN( 197)				( ( ::haxe::ds::StringMap)(this1) )->set(file2,::openfl::media::Sound_obj::fromFile(file2));
+HXDLIN( 156)		this->timeBarBG = _hx_tmp9->loadGraphic(_hx_tmp10,null(),null(),null(),null(),null());
+HXLINE( 157)		 ::flixel::FlxSprite _hx_tmp11 = this->timeBarBG;
+HXDLIN( 157)		_hx_tmp11->setGraphicSize(::Std_obj::_hx_int((this->timeBarBG->get_width() * ((Float)1.2))),null());
+HXLINE( 158)		this->timeBarBG->updateHitbox();
+HXLINE( 159)		this->timeBarBG->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE( 160)		this->timeBarBG->screenCenter(::flixel::util::FlxAxes_obj::X_dyn());
+HXLINE( 161)		this->timeBarBG->set_visible(false);
+HXLINE( 163)		Float _hx_tmp12 = (this->timeBarBG->y + 4);
+HXDLIN( 163)		int _hx_tmp13 = ::Std_obj::_hx_int((this->timeBarBG->get_width() - ( (Float)(8) )));
+HXDLIN( 163)		int _hx_tmp14 = ::Std_obj::_hx_int((this->timeBarBG->get_height() - ( (Float)(8) )));
+HXDLIN( 163)		this->timeBar =  ::flixel::ui::FlxBar_obj::__alloc( HX_CTX ,0,_hx_tmp12,::flixel::ui::FlxBarFillDirection_obj::LEFT_TO_RIGHT_dyn(),_hx_tmp13,_hx_tmp14,::hx::ObjectPtr<OBJ_>(this),HX_("barPercent",32,51,9d,48),this->delayMin,this->delayMax,null());
+HXLINE( 164)		this->timeBar->scrollFactor->set(null(),null());
+HXLINE( 165)		this->timeBar->screenCenter(::flixel::util::FlxAxes_obj::X_dyn());
+HXLINE( 166)		this->timeBar->createFilledBar(-16777216,-1,null(),null());
+HXLINE( 167)		this->timeBar->set_numDivisions(800);
+HXLINE( 168)		this->timeBar->set_visible(false);
+HXLINE( 169)		this->timeBar->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE( 171)		this->add(this->timeBarBG);
+HXLINE( 172)		this->add(this->timeBar);
+HXLINE( 173)		this->add(this->timeTxt);
+HXLINE( 177)		 ::flixel::FlxSprite blackBox =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null())->makeGraphic(::flixel::FlxG_obj::width,40,-16777216,null(),null());
+HXLINE( 178)		blackBox->scrollFactor->set(null(),null());
+HXLINE( 179)		blackBox->set_alpha(((Float)0.6));
+HXLINE( 180)		blackBox->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE( 181)		this->add(blackBox);
+HXLINE( 183)		this->changeModeText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,4,::flixel::FlxG_obj::width,HX_("",00,00,00,00),32,null());
+HXLINE( 184)		 ::flixel::text::FlxText _hx_tmp15 = this->changeModeText;
+HXDLIN( 184)		::String file1 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
+HXDLIN( 184)		::String _hx_tmp16;
+HXDLIN( 184)		if (::sys::FileSystem_obj::exists(file1)) {
+HXLINE( 184)			_hx_tmp16 = file1;
+            		}
+            		else {
+HXLINE( 184)			_hx_tmp16 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
+            		}
+HXDLIN( 184)		_hx_tmp15->setFormat(_hx_tmp16,32,-1,HX_("center",d5,25,db,05),null(),null(),null());
+HXLINE( 185)		this->changeModeText->scrollFactor->set(null(),null());
+HXLINE( 186)		this->changeModeText->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE( 187)		this->add(this->changeModeText);
+HXLINE( 188)		this->updateMode();
+HXLINE( 190)		::Conductor_obj::changeBPM(((Float)128.0));
+HXLINE( 191)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp17 = ::flixel::FlxG_obj::sound;
+HXDLIN( 191)		::String library2 = null();
+HXDLIN( 191)		::String file2 = ::Paths_obj::modFolders((((HX_("music/",ea,bf,1b,3f) + HX_("offsetSong",08,ad,6f,48)) + HX_(".",2e,00,00,00)) + HX_("ogg",4f,94,54,00)));
+HXDLIN( 191)		 ::Dynamic _hx_tmp18;
+HXDLIN( 191)		if (::sys::FileSystem_obj::exists(file2)) {
+HXLINE( 191)			if (!(::Paths_obj::customSoundsLoaded->exists(file2))) {
+HXLINE( 191)				::Dynamic this1 = ::Paths_obj::customSoundsLoaded;
+HXDLIN( 191)				( ( ::haxe::ds::StringMap)(this1) )->set(file2,::openfl::media::Sound_obj::fromFile(file2));
             			}
-HXDLIN( 197)			_hx_tmp18 = ::Paths_obj::customSoundsLoaded->get(file2);
+HXDLIN( 191)			_hx_tmp18 = ::Paths_obj::customSoundsLoaded->get(file2);
             		}
             		else {
-HXLINE( 197)			_hx_tmp18 = ::Paths_obj::getPath((((HX_("music/",ea,bf,1b,3f) + HX_("offsetSong",08,ad,6f,48)) + HX_(".",2e,00,00,00)) + HX_("ogg",4f,94,54,00)),HX_("MUSIC",85,08,49,8e),library2);
+HXLINE( 191)			_hx_tmp18 = ::Paths_obj::getPath((((HX_("music/",ea,bf,1b,3f) + HX_("offsetSong",08,ad,6f,48)) + HX_(".",2e,00,00,00)) + HX_("ogg",4f,94,54,00)),HX_("MUSIC",85,08,49,8e),library2);
             		}
-HXDLIN( 197)		_hx_tmp17->playMusic(_hx_tmp18,1,true,null());
-HXLINE( 199)		this->super::create();
+HXDLIN( 191)		_hx_tmp17->playMusic(_hx_tmp18,1,true,null());
+HXLINE( 193)		this->super::create();
             	}
 
 
 void NoteOffsetState_obj::update(Float elapsed){
-            	HX_GC_STACKFRAME(&_hx_pos_114bb637251102ea_210_update)
-HXLINE( 211)		int addNum = 1;
-HXLINE( 212)		 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 212)		if (_this->keyManager->checkStatus(16,_this->status)) {
-HXLINE( 212)			addNum = 10;
+            	HX_GC_STACKFRAME(&_hx_pos_114bb637251102ea_204_update)
+HXLINE( 205)		int addNum = 1;
+HXLINE( 206)		 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 206)		if (_this->keyManager->checkStatus(16,_this->status)) {
+HXLINE( 206)			addNum = 10;
             		}
-HXLINE( 214)		if (this->onComboMenu) {
-HXLINE( 217)			 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 217)			bool controlArray = _this->keyManager->checkStatus(37,_this->status);
-HXLINE( 218)			 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 218)			bool controlArray1 = _this1->keyManager->checkStatus(39,_this1->status);
-HXLINE( 219)			 ::flixel::input::keyboard::FlxKeyList _this2 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 219)			bool controlArray2 = _this2->keyManager->checkStatus(38,_this2->status);
-HXLINE( 220)			 ::flixel::input::keyboard::FlxKeyList _this3 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 220)			bool controlArray3 = _this3->keyManager->checkStatus(40,_this3->status);
-HXLINE( 222)			 ::flixel::input::keyboard::FlxKeyList _this4 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 222)			bool controlArray4 = _this4->keyManager->checkStatus(65,_this4->status);
-HXLINE( 223)			 ::flixel::input::keyboard::FlxKeyList _this5 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 223)			bool controlArray5 = _this5->keyManager->checkStatus(68,_this5->status);
-HXLINE( 224)			 ::flixel::input::keyboard::FlxKeyList _this6 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 224)			bool controlArray6 = _this6->keyManager->checkStatus(87,_this6->status);
-HXLINE( 225)			 ::flixel::input::keyboard::FlxKeyList _this7 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXLINE( 216)			::Array< bool > controlArray7 = ::Array_obj< bool >::__new(8)->init(0,controlArray)->init(1,controlArray1)->init(2,controlArray2)->init(3,controlArray3)->init(4,controlArray4)->init(5,controlArray5)->init(6,controlArray6)->init(7,_this7->keyManager->checkStatus(83,_this7->status));
-HXLINE( 228)			if (controlArray7->contains(true)) {
-HXLINE( 230)				{
-HXLINE( 230)					int _g = 0;
-HXDLIN( 230)					int _g1 = controlArray7->length;
-HXDLIN( 230)					while((_g < _g1)){
-HXLINE( 230)						_g = (_g + 1);
-HXDLIN( 230)						int i = (_g - 1);
-HXLINE( 232)						if (controlArray7->__get(i)) {
-HXLINE( 234)							switch((int)(i)){
+HXLINE( 208)		if (this->onComboMenu) {
+HXLINE( 211)			 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 211)			bool controlArray = _this->keyManager->checkStatus(37,_this->status);
+HXLINE( 212)			 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 212)			bool controlArray1 = _this1->keyManager->checkStatus(39,_this1->status);
+HXLINE( 213)			 ::flixel::input::keyboard::FlxKeyList _this2 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 213)			bool controlArray2 = _this2->keyManager->checkStatus(38,_this2->status);
+HXLINE( 214)			 ::flixel::input::keyboard::FlxKeyList _this3 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 214)			bool controlArray3 = _this3->keyManager->checkStatus(40,_this3->status);
+HXLINE( 216)			 ::flixel::input::keyboard::FlxKeyList _this4 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 216)			bool controlArray4 = _this4->keyManager->checkStatus(65,_this4->status);
+HXLINE( 217)			 ::flixel::input::keyboard::FlxKeyList _this5 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 217)			bool controlArray5 = _this5->keyManager->checkStatus(68,_this5->status);
+HXLINE( 218)			 ::flixel::input::keyboard::FlxKeyList _this6 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 218)			bool controlArray6 = _this6->keyManager->checkStatus(87,_this6->status);
+HXLINE( 219)			 ::flixel::input::keyboard::FlxKeyList _this7 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXLINE( 210)			::Array< bool > controlArray7 = ::Array_obj< bool >::__new(8)->init(0,controlArray)->init(1,controlArray1)->init(2,controlArray2)->init(3,controlArray3)->init(4,controlArray4)->init(5,controlArray5)->init(6,controlArray6)->init(7,_this7->keyManager->checkStatus(83,_this7->status));
+HXLINE( 222)			if (controlArray7->contains(true)) {
+HXLINE( 224)				{
+HXLINE( 224)					int _g = 0;
+HXDLIN( 224)					int _g1 = controlArray7->length;
+HXDLIN( 224)					while((_g < _g1)){
+HXLINE( 224)						_g = (_g + 1);
+HXDLIN( 224)						int i = (_g - 1);
+HXLINE( 226)						if (controlArray7->__get(i)) {
+HXLINE( 228)							switch((int)(i)){
             								case (int)0: {
-HXLINE( 237)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
-HXDLIN( 237)									int _hx_tmp = 0;
-HXDLIN( 237)									base[_hx_tmp] = (base->__get(_hx_tmp) - addNum);
+HXLINE( 231)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
+HXDLIN( 231)									int _hx_tmp = 0;
+HXDLIN( 231)									base[_hx_tmp] = (base->__get(_hx_tmp) - addNum);
             								}
             								break;
             								case (int)1: {
-HXLINE( 239)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
-HXDLIN( 239)									int _hx_tmp = 0;
-HXDLIN( 239)									base[_hx_tmp] = (base->__get(_hx_tmp) + addNum);
+HXLINE( 233)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
+HXDLIN( 233)									int _hx_tmp = 0;
+HXDLIN( 233)									base[_hx_tmp] = (base->__get(_hx_tmp) + addNum);
             								}
             								break;
             								case (int)2: {
-HXLINE( 241)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
-HXDLIN( 241)									int _hx_tmp = 1;
-HXDLIN( 241)									base[_hx_tmp] = (base->__get(_hx_tmp) + addNum);
+HXLINE( 235)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
+HXDLIN( 235)									int _hx_tmp = 1;
+HXDLIN( 235)									base[_hx_tmp] = (base->__get(_hx_tmp) + addNum);
             								}
             								break;
             								case (int)3: {
-HXLINE( 243)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
-HXDLIN( 243)									int _hx_tmp = 1;
-HXDLIN( 243)									base[_hx_tmp] = (base->__get(_hx_tmp) - addNum);
+HXLINE( 237)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
+HXDLIN( 237)									int _hx_tmp = 1;
+HXDLIN( 237)									base[_hx_tmp] = (base->__get(_hx_tmp) - addNum);
             								}
             								break;
             								case (int)4: {
-HXLINE( 245)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
-HXDLIN( 245)									int _hx_tmp = 2;
-HXDLIN( 245)									base[_hx_tmp] = (base->__get(_hx_tmp) - addNum);
+HXLINE( 239)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
+HXDLIN( 239)									int _hx_tmp = 2;
+HXDLIN( 239)									base[_hx_tmp] = (base->__get(_hx_tmp) - addNum);
             								}
             								break;
             								case (int)5: {
-HXLINE( 247)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
-HXDLIN( 247)									int _hx_tmp = 2;
-HXDLIN( 247)									base[_hx_tmp] = (base->__get(_hx_tmp) + addNum);
+HXLINE( 241)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
+HXDLIN( 241)									int _hx_tmp = 2;
+HXDLIN( 241)									base[_hx_tmp] = (base->__get(_hx_tmp) + addNum);
             								}
             								break;
             								case (int)6: {
-HXLINE( 249)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
-HXDLIN( 249)									int _hx_tmp = 3;
-HXDLIN( 249)									base[_hx_tmp] = (base->__get(_hx_tmp) + addNum);
+HXLINE( 243)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
+HXDLIN( 243)									int _hx_tmp = 3;
+HXDLIN( 243)									base[_hx_tmp] = (base->__get(_hx_tmp) + addNum);
             								}
             								break;
             								case (int)7: {
-HXLINE( 251)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
-HXDLIN( 251)									int _hx_tmp = 3;
-HXDLIN( 251)									base[_hx_tmp] = (base->__get(_hx_tmp) - addNum);
+HXLINE( 245)									::Array< int > base = ::ClientPrefs_obj::comboOffset;
+HXDLIN( 245)									int _hx_tmp = 3;
+HXDLIN( 245)									base[_hx_tmp] = (base->__get(_hx_tmp) - addNum);
             								}
             								break;
             							}
             						}
             					}
             				}
-HXLINE( 255)				this->repositionCombo();
+HXLINE( 249)				this->repositionCombo();
             			}
-HXLINE( 259)			if ((::flixel::FlxG_obj::mouse->_leftButton->current == 2)) {
-HXLINE( 261)				this->holdingObjectType = null();
-HXLINE( 262)				::flixel::FlxG_obj::mouse->getScreenPosition(this->camHUD,this->startMousePos);
-HXLINE( 263)				bool _hx_tmp;
-HXDLIN( 263)				bool _hx_tmp1;
-HXDLIN( 263)				bool _hx_tmp2;
-HXDLIN( 263)				if (((this->startMousePos->x - this->comboNums->x) >= 0)) {
-HXLINE( 263)					Float _hx_tmp = (this->startMousePos->x - this->comboNums->x);
-HXDLIN( 263)					_hx_tmp2 = (_hx_tmp <= this->comboNums->get_width());
+HXLINE( 253)			if ((::flixel::FlxG_obj::mouse->_leftButton->current == 2)) {
+HXLINE( 255)				this->holdingObjectType = null();
+HXLINE( 256)				::flixel::FlxG_obj::mouse->getScreenPosition(this->camHUD,this->startMousePos);
+HXLINE( 257)				bool _hx_tmp;
+HXDLIN( 257)				bool _hx_tmp1;
+HXDLIN( 257)				bool _hx_tmp2;
+HXDLIN( 257)				if (((this->startMousePos->x - this->comboNums->x) >= 0)) {
+HXLINE( 257)					Float _hx_tmp = (this->startMousePos->x - this->comboNums->x);
+HXDLIN( 257)					_hx_tmp2 = (_hx_tmp <= this->comboNums->get_width());
             				}
             				else {
-HXLINE( 263)					_hx_tmp2 = false;
+HXLINE( 257)					_hx_tmp2 = false;
             				}
-HXDLIN( 263)				if (_hx_tmp2) {
-HXLINE( 263)					_hx_tmp1 = ((this->startMousePos->y - this->comboNums->y) >= 0);
-            				}
-            				else {
-HXLINE( 263)					_hx_tmp1 = false;
-            				}
-HXDLIN( 263)				if (_hx_tmp1) {
-HXLINE( 264)					Float _hx_tmp1 = (this->startMousePos->y - this->comboNums->y);
-HXLINE( 263)					_hx_tmp = (_hx_tmp1 <= this->comboNums->get_height());
+HXDLIN( 257)				if (_hx_tmp2) {
+HXLINE( 257)					_hx_tmp1 = ((this->startMousePos->y - this->comboNums->y) >= 0);
             				}
             				else {
-HXLINE( 263)					_hx_tmp = false;
+HXLINE( 257)					_hx_tmp1 = false;
             				}
-HXDLIN( 263)				if (_hx_tmp) {
-HXLINE( 266)					this->holdingObjectType = true;
-HXLINE( 267)					this->startComboOffset->set_x(( (Float)(::ClientPrefs_obj::comboOffset->__get(2)) ));
-HXLINE( 268)					this->startComboOffset->set_y(( (Float)(::ClientPrefs_obj::comboOffset->__get(3)) ));
+HXDLIN( 257)				if (_hx_tmp1) {
+HXLINE( 258)					Float _hx_tmp1 = (this->startMousePos->y - this->comboNums->y);
+HXLINE( 257)					_hx_tmp = (_hx_tmp1 <= this->comboNums->get_height());
             				}
             				else {
-HXLINE( 271)					bool _hx_tmp;
-HXDLIN( 271)					bool _hx_tmp1;
-HXDLIN( 271)					bool _hx_tmp2;
-HXDLIN( 271)					if (((this->startMousePos->x - this->rating->x) >= 0)) {
-HXLINE( 271)						Float _hx_tmp = (this->startMousePos->x - this->rating->x);
-HXDLIN( 271)						_hx_tmp2 = (_hx_tmp <= this->rating->get_width());
+HXLINE( 257)					_hx_tmp = false;
+            				}
+HXDLIN( 257)				if (_hx_tmp) {
+HXLINE( 260)					this->holdingObjectType = true;
+HXLINE( 261)					this->startComboOffset->set_x(( (Float)(::ClientPrefs_obj::comboOffset->__get(2)) ));
+HXLINE( 262)					this->startComboOffset->set_y(( (Float)(::ClientPrefs_obj::comboOffset->__get(3)) ));
+            				}
+            				else {
+HXLINE( 265)					bool _hx_tmp;
+HXDLIN( 265)					bool _hx_tmp1;
+HXDLIN( 265)					bool _hx_tmp2;
+HXDLIN( 265)					if (((this->startMousePos->x - this->rating->x) >= 0)) {
+HXLINE( 265)						Float _hx_tmp = (this->startMousePos->x - this->rating->x);
+HXDLIN( 265)						_hx_tmp2 = (_hx_tmp <= this->rating->get_width());
             					}
             					else {
-HXLINE( 271)						_hx_tmp2 = false;
+HXLINE( 265)						_hx_tmp2 = false;
             					}
-HXDLIN( 271)					if (_hx_tmp2) {
-HXLINE( 271)						_hx_tmp1 = ((this->startMousePos->y - this->rating->y) >= 0);
-            					}
-            					else {
-HXLINE( 271)						_hx_tmp1 = false;
-            					}
-HXDLIN( 271)					if (_hx_tmp1) {
-HXLINE( 272)						Float _hx_tmp1 = (this->startMousePos->y - this->rating->y);
-HXLINE( 271)						_hx_tmp = (_hx_tmp1 <= this->rating->get_height());
+HXDLIN( 265)					if (_hx_tmp2) {
+HXLINE( 265)						_hx_tmp1 = ((this->startMousePos->y - this->rating->y) >= 0);
             					}
             					else {
-HXLINE( 271)						_hx_tmp = false;
+HXLINE( 265)						_hx_tmp1 = false;
             					}
-HXDLIN( 271)					if (_hx_tmp) {
-HXLINE( 274)						this->holdingObjectType = false;
-HXLINE( 275)						::flixel::FlxG_obj::mouse->getScreenPosition(this->camHUD,this->startMousePos);
-HXLINE( 276)						this->startComboOffset->set_x(( (Float)(::ClientPrefs_obj::comboOffset->__get(0)) ));
-HXLINE( 277)						this->startComboOffset->set_y(( (Float)(::ClientPrefs_obj::comboOffset->__get(1)) ));
+HXDLIN( 265)					if (_hx_tmp1) {
+HXLINE( 266)						Float _hx_tmp1 = (this->startMousePos->y - this->rating->y);
+HXLINE( 265)						_hx_tmp = (_hx_tmp1 <= this->rating->get_height());
+            					}
+            					else {
+HXLINE( 265)						_hx_tmp = false;
+            					}
+HXDLIN( 265)					if (_hx_tmp) {
+HXLINE( 268)						this->holdingObjectType = false;
+HXLINE( 269)						::flixel::FlxG_obj::mouse->getScreenPosition(this->camHUD,this->startMousePos);
+HXLINE( 270)						this->startComboOffset->set_x(( (Float)(::ClientPrefs_obj::comboOffset->__get(0)) ));
+HXLINE( 271)						this->startComboOffset->set_y(( (Float)(::ClientPrefs_obj::comboOffset->__get(1)) ));
             					}
             				}
             			}
-HXLINE( 281)			if ((::flixel::FlxG_obj::mouse->_leftButton->current == -1)) {
-HXLINE( 282)				this->holdingObjectType = null();
+HXLINE( 275)			if ((::flixel::FlxG_obj::mouse->_leftButton->current == -1)) {
+HXLINE( 276)				this->holdingObjectType = null();
             			}
-HXLINE( 286)			if (::hx::IsNotNull( this->holdingObjectType )) {
-HXLINE( 288)				 ::flixel::input::mouse::FlxMouse _this = ::flixel::FlxG_obj::mouse;
-HXDLIN( 288)				bool _hx_tmp;
-HXDLIN( 288)				if ((_this->_prevX == _this->x)) {
-HXLINE( 288)					_hx_tmp = (_this->_prevY != _this->y);
+HXLINE( 280)			if (::hx::IsNotNull( this->holdingObjectType )) {
+HXLINE( 282)				 ::flixel::input::mouse::FlxMouse _this = ::flixel::FlxG_obj::mouse;
+HXDLIN( 282)				bool _hx_tmp;
+HXDLIN( 282)				if ((_this->_prevX == _this->x)) {
+HXLINE( 282)					_hx_tmp = (_this->_prevY != _this->y);
             				}
             				else {
-HXLINE( 288)					_hx_tmp = true;
+HXLINE( 282)					_hx_tmp = true;
             				}
-HXDLIN( 288)				if (_hx_tmp) {
-HXLINE( 290)					 ::flixel::math::FlxPoint mousePos = ::flixel::FlxG_obj::mouse->getScreenPosition(this->camHUD,null());
-HXLINE( 291)					int addNum;
-HXDLIN( 291)					if (( (bool)(this->holdingObjectType) )) {
-HXLINE( 291)						addNum = 2;
+HXDLIN( 282)				if (_hx_tmp) {
+HXLINE( 284)					 ::flixel::math::FlxPoint mousePos = ::flixel::FlxG_obj::mouse->getScreenPosition(this->camHUD,null());
+HXLINE( 285)					int addNum;
+HXDLIN( 285)					if (( (bool)(this->holdingObjectType) )) {
+HXLINE( 285)						addNum = 2;
             					}
             					else {
-HXLINE( 291)						addNum = 0;
+HXLINE( 285)						addNum = 0;
             					}
-HXLINE( 292)					::ClientPrefs_obj::comboOffset[addNum] = ::Math_obj::round(((mousePos->x - this->startMousePos->x) + this->startComboOffset->x));
-HXLINE( 293)					::ClientPrefs_obj::comboOffset[(addNum + 1)] = -(::Math_obj::round(((mousePos->y - this->startMousePos->y) - this->startComboOffset->y)));
-HXLINE( 294)					this->repositionCombo();
+HXLINE( 286)					::ClientPrefs_obj::comboOffset[addNum] = ::Math_obj::round(((mousePos->x - this->startMousePos->x) + this->startComboOffset->x));
+HXLINE( 287)					::ClientPrefs_obj::comboOffset[(addNum + 1)] = -(::Math_obj::round(((mousePos->y - this->startMousePos->y) - this->startComboOffset->y)));
+HXLINE( 288)					this->repositionCombo();
             				}
             			}
-HXLINE( 298)			if (::PlayerSettings_obj::player1->controls->_reset->check()) {
-HXLINE( 300)				{
-HXLINE( 300)					int _g = 0;
-HXDLIN( 300)					int _g1 = ::ClientPrefs_obj::comboOffset->length;
-HXDLIN( 300)					while((_g < _g1)){
-HXLINE( 300)						_g = (_g + 1);
-HXDLIN( 300)						int i = (_g - 1);
-HXLINE( 302)						::ClientPrefs_obj::comboOffset[i] = 0;
+HXLINE( 292)			if (::PlayerSettings_obj::player1->controls->_reset->check()) {
+HXLINE( 294)				{
+HXLINE( 294)					int _g = 0;
+HXDLIN( 294)					int _g1 = ::ClientPrefs_obj::comboOffset->length;
+HXDLIN( 294)					while((_g < _g1)){
+HXLINE( 294)						_g = (_g + 1);
+HXDLIN( 294)						int i = (_g - 1);
+HXLINE( 296)						::ClientPrefs_obj::comboOffset[i] = 0;
             					}
             				}
-HXLINE( 304)				this->repositionCombo();
+HXLINE( 298)				this->repositionCombo();
             			}
             		}
             		else {
-HXLINE( 309)			if (::PlayerSettings_obj::player1->controls->_ui_leftP->check()) {
-HXLINE( 311)				this->barPercent = ::Math_obj::max(( (Float)(this->delayMin) ),::Math_obj::min(( (Float)((::ClientPrefs_obj::noteOffset - 1)) ),( (Float)(this->delayMax) )));
-HXLINE( 312)				this->updateNoteDelay();
+HXLINE( 303)			if (::PlayerSettings_obj::player1->controls->_ui_leftP->check()) {
+HXLINE( 305)				this->barPercent = ::Math_obj::max(( (Float)(this->delayMin) ),::Math_obj::min(( (Float)((::ClientPrefs_obj::noteOffset - 1)) ),( (Float)(this->delayMax) )));
+HXLINE( 306)				this->updateNoteDelay();
             			}
             			else {
-HXLINE( 314)				if (::PlayerSettings_obj::player1->controls->_ui_rightP->check()) {
-HXLINE( 316)					this->barPercent = ::Math_obj::max(( (Float)(this->delayMin) ),::Math_obj::min(( (Float)((::ClientPrefs_obj::noteOffset + 1)) ),( (Float)(this->delayMax) )));
-HXLINE( 317)					this->updateNoteDelay();
+HXLINE( 308)				if (::PlayerSettings_obj::player1->controls->_ui_rightP->check()) {
+HXLINE( 310)					this->barPercent = ::Math_obj::max(( (Float)(this->delayMin) ),::Math_obj::min(( (Float)((::ClientPrefs_obj::noteOffset + 1)) ),( (Float)(this->delayMax) )));
+HXLINE( 311)					this->updateNoteDelay();
             				}
             			}
-HXLINE( 320)			int mult = 1;
-HXLINE( 321)			bool _hx_tmp;
-HXDLIN( 321)			if (!(::PlayerSettings_obj::player1->controls->_ui_left->check())) {
-HXLINE( 321)				_hx_tmp = ::PlayerSettings_obj::player1->controls->_ui_right->check();
+HXLINE( 314)			int mult = 1;
+HXLINE( 315)			bool _hx_tmp;
+HXDLIN( 315)			if (!(::PlayerSettings_obj::player1->controls->_ui_left->check())) {
+HXLINE( 315)				_hx_tmp = ::PlayerSettings_obj::player1->controls->_ui_right->check();
             			}
             			else {
-HXLINE( 321)				_hx_tmp = true;
+HXLINE( 315)				_hx_tmp = true;
             			}
-HXDLIN( 321)			if (_hx_tmp) {
-HXLINE( 323)				 ::options::NoteOffsetState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 323)				_hx_tmp->holdTime = (_hx_tmp->holdTime + elapsed);
-HXLINE( 324)				if (::PlayerSettings_obj::player1->controls->_ui_left->check()) {
-HXLINE( 324)					mult = -1;
+HXDLIN( 315)			if (_hx_tmp) {
+HXLINE( 317)				 ::options::NoteOffsetState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 317)				_hx_tmp->holdTime = (_hx_tmp->holdTime + elapsed);
+HXLINE( 318)				if (::PlayerSettings_obj::player1->controls->_ui_left->check()) {
+HXLINE( 318)					mult = -1;
             				}
             			}
-HXLINE( 327)			bool _hx_tmp1;
-HXDLIN( 327)			if (!(::PlayerSettings_obj::player1->controls->_ui_leftR->check())) {
-HXLINE( 327)				_hx_tmp1 = ::PlayerSettings_obj::player1->controls->_ui_rightR->check();
+HXLINE( 321)			bool _hx_tmp1;
+HXDLIN( 321)			if (!(::PlayerSettings_obj::player1->controls->_ui_leftR->check())) {
+HXLINE( 321)				_hx_tmp1 = ::PlayerSettings_obj::player1->controls->_ui_rightR->check();
             			}
             			else {
-HXLINE( 327)				_hx_tmp1 = true;
+HXLINE( 321)				_hx_tmp1 = true;
             			}
-HXDLIN( 327)			if (_hx_tmp1) {
-HXLINE( 327)				this->holdTime = ( (Float)(0) );
+HXDLIN( 321)			if (_hx_tmp1) {
+HXLINE( 321)				this->holdTime = ( (Float)(0) );
             			}
-HXLINE( 329)			if ((this->holdTime > ((Float)0.5))) {
-HXLINE( 331)				 ::options::NoteOffsetState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 331)				_hx_tmp->barPercent = (_hx_tmp->barPercent + ((( (Float)(100) ) * elapsed) * ( (Float)(mult) )));
-HXLINE( 332)				this->barPercent = ::Math_obj::max(( (Float)(this->delayMin) ),::Math_obj::min(this->barPercent,( (Float)(this->delayMax) )));
-HXLINE( 333)				this->updateNoteDelay();
+HXLINE( 323)			if ((this->holdTime > ((Float)0.5))) {
+HXLINE( 325)				 ::options::NoteOffsetState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 325)				_hx_tmp->barPercent = (_hx_tmp->barPercent + ((( (Float)(100) ) * elapsed) * ( (Float)(mult) )));
+HXLINE( 326)				this->barPercent = ::Math_obj::max(( (Float)(this->delayMin) ),::Math_obj::min(this->barPercent,( (Float)(this->delayMax) )));
+HXLINE( 327)				this->updateNoteDelay();
             			}
-HXLINE( 336)			if (::PlayerSettings_obj::player1->controls->_reset->check()) {
-HXLINE( 338)				this->holdTime = ( (Float)(0) );
-HXLINE( 339)				this->barPercent = ( (Float)(0) );
-HXLINE( 340)				this->updateNoteDelay();
+HXLINE( 330)			if (::PlayerSettings_obj::player1->controls->_reset->check()) {
+HXLINE( 332)				this->holdTime = ( (Float)(0) );
+HXLINE( 333)				this->barPercent = ( (Float)(0) );
+HXLINE( 334)				this->updateNoteDelay();
             			}
             		}
-HXLINE( 344)		if (::PlayerSettings_obj::player1->controls->_accept->check()) {
-HXLINE( 346)			this->onComboMenu = !(this->onComboMenu);
-HXLINE( 347)			this->updateMode();
+HXLINE( 338)		if (::PlayerSettings_obj::player1->controls->_accept->check()) {
+HXLINE( 340)			this->onComboMenu = !(this->onComboMenu);
+HXLINE( 341)			this->updateMode();
             		}
-HXLINE( 350)		if (::PlayerSettings_obj::player1->controls->_back->check()) {
-HXLINE( 352)			if (::hx::IsNotNull( this->zoomTween )) {
-HXLINE( 352)				this->zoomTween->cancel();
+HXLINE( 344)		if (::PlayerSettings_obj::player1->controls->_back->check()) {
+HXLINE( 346)			if (::hx::IsNotNull( this->zoomTween )) {
+HXLINE( 346)				this->zoomTween->cancel();
             			}
-HXLINE( 353)			if (::hx::IsNotNull( this->beatTween )) {
-HXLINE( 353)				this->beatTween->cancel();
+HXLINE( 347)			if (::hx::IsNotNull( this->beatTween )) {
+HXLINE( 347)				this->beatTween->cancel();
             			}
-HXLINE( 355)			this->persistentUpdate = false;
-HXLINE( 356)			::CustomFadeTransition_obj::nextCamera = this->camOther;
-HXLINE( 357)			::MusicBeatState_obj::switchState( ::options::OptionsState_obj::__alloc( HX_CTX ,null(),null()));
-HXLINE( 358)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 358)			::String library = null();
-HXDLIN( 358)			::String file = ::Paths_obj::modFolders((((HX_("music/",ea,bf,1b,3f) + HX_("freakyMenu",15,c9,93,86)) + HX_(".",2e,00,00,00)) + HX_("ogg",4f,94,54,00)));
-HXDLIN( 358)			 ::Dynamic _hx_tmp1;
-HXDLIN( 358)			if (::sys::FileSystem_obj::exists(file)) {
-HXLINE( 358)				if (!(::Paths_obj::customSoundsLoaded->exists(file))) {
-HXLINE( 358)					::Dynamic this1 = ::Paths_obj::customSoundsLoaded;
-HXDLIN( 358)					( ( ::haxe::ds::StringMap)(this1) )->set(file,::openfl::media::Sound_obj::fromFile(file));
+HXLINE( 349)			this->persistentUpdate = false;
+HXLINE( 350)			::CustomFadeTransition_obj::nextCamera = this->camOther;
+HXLINE( 351)			::MusicBeatState_obj::switchState( ::options::OptionsState_obj::__alloc( HX_CTX ,null(),null()));
+HXLINE( 352)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 352)			::String library = null();
+HXDLIN( 352)			::String file = ::Paths_obj::modFolders((((HX_("music/",ea,bf,1b,3f) + HX_("freakyMenu",15,c9,93,86)) + HX_(".",2e,00,00,00)) + HX_("ogg",4f,94,54,00)));
+HXDLIN( 352)			 ::Dynamic _hx_tmp1;
+HXDLIN( 352)			if (::sys::FileSystem_obj::exists(file)) {
+HXLINE( 352)				if (!(::Paths_obj::customSoundsLoaded->exists(file))) {
+HXLINE( 352)					::Dynamic this1 = ::Paths_obj::customSoundsLoaded;
+HXDLIN( 352)					( ( ::haxe::ds::StringMap)(this1) )->set(file,::openfl::media::Sound_obj::fromFile(file));
             				}
-HXDLIN( 358)				_hx_tmp1 = ::Paths_obj::customSoundsLoaded->get(file);
+HXDLIN( 352)				_hx_tmp1 = ::Paths_obj::customSoundsLoaded->get(file);
             			}
             			else {
-HXLINE( 358)				_hx_tmp1 = ::Paths_obj::getPath((((HX_("music/",ea,bf,1b,3f) + HX_("freakyMenu",15,c9,93,86)) + HX_(".",2e,00,00,00)) + HX_("ogg",4f,94,54,00)),HX_("MUSIC",85,08,49,8e),library);
+HXLINE( 352)				_hx_tmp1 = ::Paths_obj::getPath((((HX_("music/",ea,bf,1b,3f) + HX_("freakyMenu",15,c9,93,86)) + HX_(".",2e,00,00,00)) + HX_("ogg",4f,94,54,00)),HX_("MUSIC",85,08,49,8e),library);
             			}
-HXDLIN( 358)			_hx_tmp->playMusic(_hx_tmp1,1,true,null());
-HXLINE( 359)			::flixel::FlxG_obj::mouse->set_visible(false);
+HXDLIN( 352)			_hx_tmp->playMusic(_hx_tmp1,1,true,null());
+HXLINE( 353)			::flixel::FlxG_obj::mouse->set_visible(false);
             		}
-HXLINE( 362)		::Conductor_obj::songPosition = ::flixel::FlxG_obj::sound->music->_time;
-HXLINE( 363)		this->super::update(elapsed);
+HXLINE( 356)		::Conductor_obj::songPosition = ::flixel::FlxG_obj::sound->music->_time;
+HXLINE( 357)		this->super::update(elapsed);
             	}
 
 
 void NoteOffsetState_obj::beatHit(){
-            	HX_STACKFRAME(&_hx_pos_114bb637251102ea_369_beatHit)
-HXDLIN( 369)		 ::options::NoteOffsetState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 370)		this->super::beatHit();
-HXLINE( 372)		if ((this->lastBeatHit == this->curBeat)) {
-HXLINE( 374)			return;
+            	HX_STACKFRAME(&_hx_pos_114bb637251102ea_363_beatHit)
+HXDLIN( 363)		 ::options::NoteOffsetState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 364)		this->super::beatHit();
+HXLINE( 366)		if ((this->lastBeatHit == this->curBeat)) {
+HXLINE( 368)			return;
             		}
-HXLINE( 377)		if ((::hx::Mod(this->curBeat,2) == 0)) {
-HXLINE( 379)			this->boyfriend->dance();
-HXLINE( 380)			this->gf->dance();
+HXLINE( 371)		if ((::hx::Mod(this->curBeat,2) == 0)) {
+HXLINE( 373)			this->boyfriend->dance();
             		}
-HXLINE( 383)		if ((::hx::Mod(this->curBeat,4) == 2)) {
+HXLINE( 376)		if ((::hx::Mod(this->curBeat,4) == 2)) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::options::NoteOffsetState,_gthis) HXARGC(1)
             			void _hx_run( ::flixel::tweens::FlxTween twn){
-            				HX_STACKFRAME(&_hx_pos_114bb637251102ea_390_beatHit)
-HXLINE( 390)				_gthis->zoomTween = null();
+            				HX_STACKFRAME(&_hx_pos_114bb637251102ea_383_beatHit)
+HXLINE( 383)				_gthis->zoomTween = null();
             			}
             			HX_END_LOCAL_FUNC1((void))
 
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::options::NoteOffsetState,_gthis) HXARGC(1)
             			void _hx_run( ::flixel::tweens::FlxTween twn){
-            				HX_STACKFRAME(&_hx_pos_114bb637251102ea_400_beatHit)
-HXLINE( 400)				_gthis->beatTween = null();
+            				HX_STACKFRAME(&_hx_pos_114bb637251102ea_393_beatHit)
+HXLINE( 393)				_gthis->beatTween = null();
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 385)			::flixel::FlxG_obj::camera->set_zoom(((Float)1.15));
-HXLINE( 387)			if (::hx::IsNotNull( this->zoomTween )) {
-HXLINE( 387)				this->zoomTween->cancel();
+HXLINE( 378)			::flixel::FlxG_obj::camera->set_zoom(((Float)1.15));
+HXLINE( 380)			if (::hx::IsNotNull( this->zoomTween )) {
+HXLINE( 380)				this->zoomTween->cancel();
             			}
-HXLINE( 388)			this->zoomTween = ::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE( 381)			this->zoomTween = ::flixel::tweens::FlxTween_obj::tween(::flixel::FlxG_obj::camera, ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("zoom",13,a3,f8,50),1)),1, ::Dynamic(::hx::Anon_obj::Create(2)
             				->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::circOut_dyn())
             				->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_0(_gthis)))));
-HXLINE( 394)			this->beatText->set_alpha(( (Float)(1) ));
-HXLINE( 395)			this->beatText->set_y(( (Float)(320) ));
-HXLINE( 396)			this->beatText->velocity->set_y(( (Float)(-150) ));
-HXLINE( 397)			if (::hx::IsNotNull( this->beatTween )) {
-HXLINE( 397)				this->beatTween->cancel();
+HXLINE( 387)			this->beatText->set_alpha(( (Float)(1) ));
+HXLINE( 388)			this->beatText->set_y(( (Float)(320) ));
+HXLINE( 389)			this->beatText->velocity->set_y(( (Float)(-150) ));
+HXLINE( 390)			if (::hx::IsNotNull( this->beatTween )) {
+HXLINE( 390)				this->beatTween->cancel();
             			}
-HXLINE( 398)			this->beatTween = ::flixel::tweens::FlxTween_obj::tween(this->beatText, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE( 391)			this->beatTween = ::flixel::tweens::FlxTween_obj::tween(this->beatText, ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("alpha",5e,a7,96,21),0)),1, ::Dynamic(::hx::Anon_obj::Create(2)
             				->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::sineIn_dyn())
             				->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_1(_gthis)))));
             		}
-HXLINE( 405)		this->lastBeatHit = this->curBeat;
+HXLINE( 398)		this->lastBeatHit = this->curBeat;
             	}
 
 
 void NoteOffsetState_obj::repositionCombo(){
-            	HX_STACKFRAME(&_hx_pos_114bb637251102ea_409_repositionCombo)
-HXLINE( 410)		this->rating->screenCenter(null());
-HXLINE( 411)		this->rating->set_x(((this->coolText->x - ( (Float)(40) )) + ::ClientPrefs_obj::comboOffset->__get(0)));
-HXLINE( 412)		 ::flixel::FlxSprite fh = this->rating;
-HXDLIN( 412)		fh->set_y((fh->y - ( (Float)((60 + ::ClientPrefs_obj::comboOffset->__get(1))) )));
-HXLINE( 414)		this->comboNums->screenCenter(null());
-HXLINE( 415)		this->comboNums->set_x(((this->coolText->x - ( (Float)(90) )) + ::ClientPrefs_obj::comboOffset->__get(2)));
-HXLINE( 416)		 ::flixel::group::FlxTypedSpriteGroup fh1 = this->comboNums;
-HXDLIN( 416)		fh1->set_y((fh1->y + (80 - ::ClientPrefs_obj::comboOffset->__get(3))));
-HXLINE( 417)		this->reloadTexts();
+            	HX_STACKFRAME(&_hx_pos_114bb637251102ea_402_repositionCombo)
+HXLINE( 403)		this->rating->screenCenter(null());
+HXLINE( 404)		this->rating->set_x(((this->coolText->x - ( (Float)(40) )) + ::ClientPrefs_obj::comboOffset->__get(0)));
+HXLINE( 405)		 ::flixel::FlxSprite fh = this->rating;
+HXDLIN( 405)		fh->set_y((fh->y - ( (Float)((60 + ::ClientPrefs_obj::comboOffset->__get(1))) )));
+HXLINE( 407)		this->comboNums->screenCenter(null());
+HXLINE( 408)		this->comboNums->set_x(((this->coolText->x - ( (Float)(90) )) + ::ClientPrefs_obj::comboOffset->__get(2)));
+HXLINE( 409)		 ::flixel::group::FlxTypedSpriteGroup fh1 = this->comboNums;
+HXDLIN( 409)		fh1->set_y((fh1->y + (80 - ::ClientPrefs_obj::comboOffset->__get(3))));
+HXLINE( 410)		this->reloadTexts();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(NoteOffsetState_obj,repositionCombo,(void))
 
 void NoteOffsetState_obj::createTexts(){
-            	HX_GC_STACKFRAME(&_hx_pos_114bb637251102ea_422_createTexts)
-HXLINE( 423)		{
-HXLINE( 424)			 ::flixel::text::FlxText text =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,48,0,HX_("",00,00,00,00),24,null());
-HXLINE( 425)			::String file = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
-HXDLIN( 425)			::String _hx_tmp;
-HXDLIN( 425)			if (::sys::FileSystem_obj::exists(file)) {
-HXLINE( 425)				_hx_tmp = file;
+            	HX_GC_STACKFRAME(&_hx_pos_114bb637251102ea_415_createTexts)
+HXLINE( 416)		{
+HXLINE( 417)			 ::flixel::text::FlxText text =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,48,0,HX_("",00,00,00,00),24,null());
+HXLINE( 418)			::String file = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
+HXDLIN( 418)			::String _hx_tmp;
+HXDLIN( 418)			if (::sys::FileSystem_obj::exists(file)) {
+HXLINE( 418)				_hx_tmp = file;
             			}
             			else {
-HXLINE( 425)				_hx_tmp = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
+HXLINE( 418)				_hx_tmp = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
             			}
-HXDLIN( 425)			text->setFormat(_hx_tmp,24,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
-HXLINE( 426)			text->scrollFactor->set(null(),null());
-HXLINE( 427)			text->set_borderSize(( (Float)(2) ));
-HXLINE( 428)			this->dumbTexts->add(text).StaticCast<  ::flixel::text::FlxText >();
-HXLINE( 429)			text->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXDLIN( 418)			text->setFormat(_hx_tmp,24,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
+HXLINE( 419)			text->scrollFactor->set(null(),null());
+HXLINE( 420)			text->set_borderSize(( (Float)(2) ));
+HXLINE( 421)			this->dumbTexts->add(text).StaticCast<  ::flixel::text::FlxText >();
+HXLINE( 422)			text->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
             		}
-HXLINE( 423)		{
-HXLINE( 424)			 ::flixel::text::FlxText text1 =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,78,0,HX_("",00,00,00,00),24,null());
-HXLINE( 425)			::String file1 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
-HXDLIN( 425)			::String _hx_tmp1;
-HXDLIN( 425)			if (::sys::FileSystem_obj::exists(file1)) {
-HXLINE( 425)				_hx_tmp1 = file1;
+HXLINE( 416)		{
+HXLINE( 417)			 ::flixel::text::FlxText text1 =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,78,0,HX_("",00,00,00,00),24,null());
+HXLINE( 418)			::String file1 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
+HXDLIN( 418)			::String _hx_tmp1;
+HXDLIN( 418)			if (::sys::FileSystem_obj::exists(file1)) {
+HXLINE( 418)				_hx_tmp1 = file1;
             			}
             			else {
-HXLINE( 425)				_hx_tmp1 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
+HXLINE( 418)				_hx_tmp1 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
             			}
-HXDLIN( 425)			text1->setFormat(_hx_tmp1,24,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
-HXLINE( 426)			text1->scrollFactor->set(null(),null());
-HXLINE( 427)			text1->set_borderSize(( (Float)(2) ));
-HXLINE( 428)			this->dumbTexts->add(text1).StaticCast<  ::flixel::text::FlxText >();
-HXLINE( 429)			text1->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXDLIN( 418)			text1->setFormat(_hx_tmp1,24,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
+HXLINE( 419)			text1->scrollFactor->set(null(),null());
+HXLINE( 420)			text1->set_borderSize(( (Float)(2) ));
+HXLINE( 421)			this->dumbTexts->add(text1).StaticCast<  ::flixel::text::FlxText >();
+HXLINE( 422)			text1->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
             		}
-HXLINE( 423)		{
-HXLINE( 424)			 ::flixel::text::FlxText text2 =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,108,0,HX_("",00,00,00,00),24,null());
-HXLINE( 425)			::String file2 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
-HXDLIN( 425)			::String _hx_tmp2;
-HXDLIN( 425)			if (::sys::FileSystem_obj::exists(file2)) {
-HXLINE( 425)				_hx_tmp2 = file2;
+HXLINE( 416)		{
+HXLINE( 417)			 ::flixel::text::FlxText text2 =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,108,0,HX_("",00,00,00,00),24,null());
+HXLINE( 418)			::String file2 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
+HXDLIN( 418)			::String _hx_tmp2;
+HXDLIN( 418)			if (::sys::FileSystem_obj::exists(file2)) {
+HXLINE( 418)				_hx_tmp2 = file2;
             			}
             			else {
-HXLINE( 425)				_hx_tmp2 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
+HXLINE( 418)				_hx_tmp2 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
             			}
-HXDLIN( 425)			text2->setFormat(_hx_tmp2,24,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
-HXLINE( 426)			text2->scrollFactor->set(null(),null());
-HXLINE( 427)			text2->set_borderSize(( (Float)(2) ));
-HXLINE( 428)			this->dumbTexts->add(text2).StaticCast<  ::flixel::text::FlxText >();
-HXLINE( 429)			text2->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE( 433)			text2->set_y((text2->y + 24));
+HXDLIN( 418)			text2->setFormat(_hx_tmp2,24,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
+HXLINE( 419)			text2->scrollFactor->set(null(),null());
+HXLINE( 420)			text2->set_borderSize(( (Float)(2) ));
+HXLINE( 421)			this->dumbTexts->add(text2).StaticCast<  ::flixel::text::FlxText >();
+HXLINE( 422)			text2->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE( 426)			text2->set_y((text2->y + 24));
             		}
-HXLINE( 423)		{
-HXLINE( 424)			 ::flixel::text::FlxText text3 =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,138,0,HX_("",00,00,00,00),24,null());
-HXLINE( 425)			::String file3 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
-HXDLIN( 425)			::String _hx_tmp3;
-HXDLIN( 425)			if (::sys::FileSystem_obj::exists(file3)) {
-HXLINE( 425)				_hx_tmp3 = file3;
+HXLINE( 416)		{
+HXLINE( 417)			 ::flixel::text::FlxText text3 =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,138,0,HX_("",00,00,00,00),24,null());
+HXLINE( 418)			::String file3 = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
+HXDLIN( 418)			::String _hx_tmp3;
+HXDLIN( 418)			if (::sys::FileSystem_obj::exists(file3)) {
+HXLINE( 418)				_hx_tmp3 = file3;
             			}
             			else {
-HXLINE( 425)				_hx_tmp3 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
+HXLINE( 418)				_hx_tmp3 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
             			}
-HXDLIN( 425)			text3->setFormat(_hx_tmp3,24,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
-HXLINE( 426)			text3->scrollFactor->set(null(),null());
-HXLINE( 427)			text3->set_borderSize(( (Float)(2) ));
-HXLINE( 428)			this->dumbTexts->add(text3).StaticCast<  ::flixel::text::FlxText >();
-HXLINE( 429)			text3->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
-HXLINE( 433)			text3->set_y((text3->y + 24));
+HXDLIN( 418)			text3->setFormat(_hx_tmp3,24,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
+HXLINE( 419)			text3->scrollFactor->set(null(),null());
+HXLINE( 420)			text3->set_borderSize(( (Float)(2) ));
+HXLINE( 421)			this->dumbTexts->add(text3).StaticCast<  ::flixel::text::FlxText >();
+HXLINE( 422)			text3->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,this->camHUD));
+HXLINE( 426)			text3->set_y((text3->y + 24));
             		}
             	}
 
@@ -880,27 +868,27 @@ HXLINE( 433)			text3->set_y((text3->y + 24));
 HX_DEFINE_DYNAMIC_FUNC0(NoteOffsetState_obj,createTexts,(void))
 
 void NoteOffsetState_obj::reloadTexts(){
-            	HX_STACKFRAME(&_hx_pos_114bb637251102ea_440_reloadTexts)
-HXDLIN( 440)		int _g = 0;
-HXDLIN( 440)		int _g1 = this->dumbTexts->length;
-HXDLIN( 440)		while((_g < _g1)){
-HXDLIN( 440)			_g = (_g + 1);
-HXDLIN( 440)			int i = (_g - 1);
-HXLINE( 442)			switch((int)(i)){
+            	HX_STACKFRAME(&_hx_pos_114bb637251102ea_433_reloadTexts)
+HXDLIN( 433)		int _g = 0;
+HXDLIN( 433)		int _g1 = this->dumbTexts->length;
+HXDLIN( 433)		while((_g < _g1)){
+HXDLIN( 433)			_g = (_g + 1);
+HXDLIN( 433)			int i = (_g - 1);
+HXLINE( 435)			switch((int)(i)){
             				case (int)0: {
-HXLINE( 444)					Dynamic( this->dumbTexts->members->__get(i)).StaticCast<  ::flixel::text::FlxText >()->set_text(HX_("Rating Offset:",44,22,91,b9));
+HXLINE( 437)					Dynamic( this->dumbTexts->members->__get(i)).StaticCast<  ::flixel::text::FlxText >()->set_text(HX_("Rating Offset:",44,22,91,b9));
             				}
             				break;
             				case (int)1: {
-HXLINE( 445)					Dynamic( this->dumbTexts->members->__get(i)).StaticCast<  ::flixel::text::FlxText >()->set_text(((((HX_("[",5b,00,00,00) + ::ClientPrefs_obj::comboOffset->__get(0)) + HX_(", ",74,26,00,00)) + ::ClientPrefs_obj::comboOffset->__get(1)) + HX_("]",5d,00,00,00)));
+HXLINE( 438)					Dynamic( this->dumbTexts->members->__get(i)).StaticCast<  ::flixel::text::FlxText >()->set_text(((((HX_("[",5b,00,00,00) + ::ClientPrefs_obj::comboOffset->__get(0)) + HX_(", ",74,26,00,00)) + ::ClientPrefs_obj::comboOffset->__get(1)) + HX_("]",5d,00,00,00)));
             				}
             				break;
             				case (int)2: {
-HXLINE( 446)					Dynamic( this->dumbTexts->members->__get(i)).StaticCast<  ::flixel::text::FlxText >()->set_text(HX_("Numbers Offset:",71,80,7f,42));
+HXLINE( 439)					Dynamic( this->dumbTexts->members->__get(i)).StaticCast<  ::flixel::text::FlxText >()->set_text(HX_("Numbers Offset:",71,80,7f,42));
             				}
             				break;
             				case (int)3: {
-HXLINE( 447)					Dynamic( this->dumbTexts->members->__get(i)).StaticCast<  ::flixel::text::FlxText >()->set_text(((((HX_("[",5b,00,00,00) + ::ClientPrefs_obj::comboOffset->__get(2)) + HX_(", ",74,26,00,00)) + ::ClientPrefs_obj::comboOffset->__get(3)) + HX_("]",5d,00,00,00)));
+HXLINE( 440)					Dynamic( this->dumbTexts->members->__get(i)).StaticCast<  ::flixel::text::FlxText >()->set_text(((((HX_("[",5b,00,00,00) + ::ClientPrefs_obj::comboOffset->__get(2)) + HX_(", ",74,26,00,00)) + ::ClientPrefs_obj::comboOffset->__get(3)) + HX_("]",5d,00,00,00)));
             				}
             				break;
             			}
@@ -911,32 +899,32 @@ HXLINE( 447)					Dynamic( this->dumbTexts->members->__get(i)).StaticCast<  ::fli
 HX_DEFINE_DYNAMIC_FUNC0(NoteOffsetState_obj,reloadTexts,(void))
 
 void NoteOffsetState_obj::updateNoteDelay(){
-            	HX_STACKFRAME(&_hx_pos_114bb637251102ea_453_updateNoteDelay)
-HXLINE( 454)		::ClientPrefs_obj::noteOffset = ::Math_obj::round(this->barPercent);
-HXLINE( 455)		this->timeTxt->set_text(((HX_("Current offset: ",e0,a5,88,6a) + ::Math_obj::floor(this->barPercent)) + HX_(" ms",86,a7,18,00)));
+            	HX_STACKFRAME(&_hx_pos_114bb637251102ea_446_updateNoteDelay)
+HXLINE( 447)		::ClientPrefs_obj::noteOffset = ::Math_obj::round(this->barPercent);
+HXLINE( 448)		this->timeTxt->set_text(((HX_("Current offset: ",e0,a5,88,6a) + ::Math_obj::floor(this->barPercent)) + HX_(" ms",86,a7,18,00)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(NoteOffsetState_obj,updateNoteDelay,(void))
 
 void NoteOffsetState_obj::updateMode(){
-            	HX_STACKFRAME(&_hx_pos_114bb637251102ea_459_updateMode)
-HXLINE( 460)		this->rating->set_visible(this->onComboMenu);
-HXLINE( 461)		this->comboNums->set_visible(this->onComboMenu);
-HXLINE( 462)		this->dumbTexts->set_visible(this->onComboMenu);
-HXLINE( 464)		this->timeBarBG->set_visible(!(this->onComboMenu));
-HXLINE( 465)		this->timeBar->set_visible(!(this->onComboMenu));
-HXLINE( 466)		this->timeTxt->set_visible(!(this->onComboMenu));
-HXLINE( 467)		this->beatText->set_visible(!(this->onComboMenu));
-HXLINE( 469)		if (this->onComboMenu) {
-HXLINE( 470)			this->changeModeText->set_text(HX_("< Combo Offset (Press Accept to Switch) >",98,ce,3b,79));
+            	HX_STACKFRAME(&_hx_pos_114bb637251102ea_452_updateMode)
+HXLINE( 453)		this->rating->set_visible(this->onComboMenu);
+HXLINE( 454)		this->comboNums->set_visible(this->onComboMenu);
+HXLINE( 455)		this->dumbTexts->set_visible(this->onComboMenu);
+HXLINE( 457)		this->timeBarBG->set_visible(!(this->onComboMenu));
+HXLINE( 458)		this->timeBar->set_visible(!(this->onComboMenu));
+HXLINE( 459)		this->timeTxt->set_visible(!(this->onComboMenu));
+HXLINE( 460)		this->beatText->set_visible(!(this->onComboMenu));
+HXLINE( 462)		if (this->onComboMenu) {
+HXLINE( 463)			this->changeModeText->set_text(HX_("< Combo Offset (Press Accept to Switch) >",98,ce,3b,79));
             		}
             		else {
-HXLINE( 472)			this->changeModeText->set_text(HX_("< Note/Beat Delay (Press Accept to Switch) >",6f,f3,05,93));
+HXLINE( 465)			this->changeModeText->set_text(HX_("< Note/Beat Delay (Press Accept to Switch) >",6f,f3,05,93));
             		}
-HXLINE( 474)		 ::flixel::text::FlxText _hx_tmp = this->changeModeText;
-HXDLIN( 474)		_hx_tmp->set_text(this->changeModeText->text.toUpperCase());
-HXLINE( 475)		::flixel::FlxG_obj::mouse->set_visible(this->onComboMenu);
+HXLINE( 467)		 ::flixel::text::FlxText _hx_tmp = this->changeModeText;
+HXDLIN( 467)		_hx_tmp->set_text(this->changeModeText->text.toUpperCase());
+HXLINE( 468)		::flixel::FlxG_obj::mouse->set_visible(this->onComboMenu);
             	}
 
 
@@ -964,7 +952,6 @@ void NoteOffsetState_obj::__Mark(HX_MARK_PARAMS)
 {
 	HX_MARK_BEGIN_CLASS(NoteOffsetState);
 	HX_MARK_MEMBER_NAME(boyfriend,"boyfriend");
-	HX_MARK_MEMBER_NAME(gf,"gf");
 	HX_MARK_MEMBER_NAME(camHUD,"camHUD");
 	HX_MARK_MEMBER_NAME(camGame,"camGame");
 	HX_MARK_MEMBER_NAME(camOther,"camOther");
@@ -995,7 +982,6 @@ void NoteOffsetState_obj::__Mark(HX_MARK_PARAMS)
 void NoteOffsetState_obj::__Visit(HX_VISIT_PARAMS)
 {
 	HX_VISIT_MEMBER_NAME(boyfriend,"boyfriend");
-	HX_VISIT_MEMBER_NAME(gf,"gf");
 	HX_VISIT_MEMBER_NAME(camHUD,"camHUD");
 	HX_VISIT_MEMBER_NAME(camGame,"camGame");
 	HX_VISIT_MEMBER_NAME(camOther,"camOther");
@@ -1025,9 +1011,6 @@ void NoteOffsetState_obj::__Visit(HX_VISIT_PARAMS)
 ::hx::Val NoteOffsetState_obj::__Field(const ::String &inName,::hx::PropertyAccess inCallProp)
 {
 	switch(inName.length) {
-	case 2:
-		if (HX_FIELD_EQ(inName,"gf") ) { return ::hx::Val( gf ); }
-		break;
 	case 6:
 		if (HX_FIELD_EQ(inName,"camHUD") ) { return ::hx::Val( camHUD ); }
 		if (HX_FIELD_EQ(inName,"rating") ) { return ::hx::Val( rating ); }
@@ -1088,9 +1071,6 @@ void NoteOffsetState_obj::__Visit(HX_VISIT_PARAMS)
 ::hx::Val NoteOffsetState_obj::__SetField(const ::String &inName,const ::hx::Val &inValue,::hx::PropertyAccess inCallProp)
 {
 	switch(inName.length) {
-	case 2:
-		if (HX_FIELD_EQ(inName,"gf") ) { gf=inValue.Cast<  ::Character >(); return inValue; }
-		break;
 	case 6:
 		if (HX_FIELD_EQ(inName,"camHUD") ) { camHUD=inValue.Cast<  ::flixel::FlxCamera >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"rating") ) { rating=inValue.Cast<  ::flixel::FlxSprite >(); return inValue; }
@@ -1141,7 +1121,6 @@ void NoteOffsetState_obj::__Visit(HX_VISIT_PARAMS)
 void NoteOffsetState_obj::__GetFields(Array< ::String> &outFields)
 {
 	outFields->push(HX_("boyfriend",6a,29,b8,e6));
-	outFields->push(HX_("gf",1f,5a,00,00));
 	outFields->push(HX_("camHUD",e8,2b,76,b7));
 	outFields->push(HX_("camGame",a1,47,50,cf));
 	outFields->push(HX_("camOther",41,4c,ae,3e));
@@ -1171,7 +1150,6 @@ void NoteOffsetState_obj::__GetFields(Array< ::String> &outFields)
 #ifdef HXCPP_SCRIPTABLE
 static ::hx::StorageInfo NoteOffsetState_obj_sMemberStorageInfo[] = {
 	{::hx::fsObject /*  ::Character */ ,(int)offsetof(NoteOffsetState_obj,boyfriend),HX_("boyfriend",6a,29,b8,e6)},
-	{::hx::fsObject /*  ::Character */ ,(int)offsetof(NoteOffsetState_obj,gf),HX_("gf",1f,5a,00,00)},
 	{::hx::fsObject /*  ::flixel::FlxCamera */ ,(int)offsetof(NoteOffsetState_obj,camHUD),HX_("camHUD",e8,2b,76,b7)},
 	{::hx::fsObject /*  ::flixel::FlxCamera */ ,(int)offsetof(NoteOffsetState_obj,camGame),HX_("camGame",a1,47,50,cf)},
 	{::hx::fsObject /*  ::flixel::FlxCamera */ ,(int)offsetof(NoteOffsetState_obj,camOther),HX_("camOther",41,4c,ae,3e)},
@@ -1202,7 +1180,6 @@ static ::hx::StaticInfo *NoteOffsetState_obj_sStaticStorageInfo = 0;
 
 static ::String NoteOffsetState_obj_sMemberFields[] = {
 	HX_("boyfriend",6a,29,b8,e6),
-	HX_("gf",1f,5a,00,00),
 	HX_("camHUD",e8,2b,76,b7),
 	HX_("camGame",a1,47,50,cf),
 	HX_("camOther",41,4c,ae,3e),

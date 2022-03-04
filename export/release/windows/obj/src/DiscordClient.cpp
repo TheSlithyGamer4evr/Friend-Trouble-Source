@@ -82,7 +82,7 @@ HXLINE(  17)		::haxe::Log_obj::trace(HX_("Discord Client starting...",0d,5b,39,a
 HXLINE(  18)		::discord_rpc::DiscordRpc_obj::start( ::Dynamic(::hx::Anon_obj::Create(4)
             			->setFixed(0,HX_("onDisconnected",7a,eb,5a,b8),::DiscordClient_obj::onDisconnected_dyn())
             			->setFixed(1,HX_("onError",29,6a,67,09),::DiscordClient_obj::onError_dyn())
-            			->setFixed(2,HX_("clientID",e6,72,8f,15),HX_("863222024192262205",be,6e,40,13))
+            			->setFixed(2,HX_("clientID",e6,72,8f,15),HX_("939945649934311514",1f,2b,50,17))
             			->setFixed(3,HX_("onReady",c4,3e,f8,7c),::DiscordClient_obj::onReady_dyn())));
 HXLINE(  24)		::haxe::Log_obj::trace(HX_("Discord Client started.",8e,09,8e,36),::hx::SourceInfo(HX_("source/Discord.hx",a6,a8,2e,33),24,HX_("DiscordClient",f7,d0,c5,2b),HX_("new",60,d0,53,00)));
 HXLINE(  26)		while(true){
@@ -120,7 +120,7 @@ HXDLIN(  43)		::discord_rpc::DiscordRpc_obj::presence( ::Dynamic(::hx::Anon_obj:
             			->setFixed(0,HX_("state",11,76,0b,84),null())
             			->setFixed(1,HX_("details",c2,dc,56,ab),HX_("In the Menus",0a,c1,ad,c6))
             			->setFixed(2,HX_("largeImageKey",df,8f,e3,ae),HX_("icon",79,e7,b2,45))
-            			->setFixed(3,HX_("largeImageText",6d,3e,2d,5e),HX_("Psych Engine",47,a4,90,86))));
+            			->setFixed(3,HX_("largeImageText",6d,3e,2d,5e),HX_("Friend Trouble",f5,ef,d0,b7))));
             	}
 
 

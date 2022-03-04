@@ -1,16 +1,20 @@
 {
 	"storyName": "Friend Trouble",
-	"difficulties": "",
+	"difficulties": "Nino, Hard",
 	"hideFreeplay": false,
 	"weekBackground": "friendtrouble",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Friend Trouble",
@@ -22,10 +26,6 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"hideStoryMode": false,
 	"weekName": "FRIENDTROUBLE"
 }

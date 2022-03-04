@@ -11,7 +11,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_cdeed3238d528005_34_new,"__ASSET__flixel_sounds_flixel_ogg","new",0xa56e6f66,"__ASSET__flixel_sounds_flixel_ogg.new","lime/_internal/macros/AssetsMacro.hx",34,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_e90b7df9adaef5b6_791_boot,"__ASSET__flixel_sounds_flixel_ogg","boot",0x134c0a6c,"__ASSET__flixel_sounds_flixel_ogg.boot","ManifestResources.hx",791,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_e90b7df9adaef5b6_794_boot,"__ASSET__flixel_sounds_flixel_ogg","boot",0x134c0a6c,"__ASSET__flixel_sounds_flixel_ogg.boot","ManifestResources.hx",794,0xf77aa668)
 
 void __ASSET__flixel_sounds_flixel_ogg_obj::__construct( ::Dynamic length,::Array< unsigned char > bytesData){
             	HX_STACKFRAME(&_hx_pos_cdeed3238d528005_34_new)
@@ -132,8 +132,8 @@ void __ASSET__flixel_sounds_flixel_ogg_obj::__register()
 void __ASSET__flixel_sounds_flixel_ogg_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_e90b7df9adaef5b6_791_boot)
-HXDLIN( 791)		resourceName = HX_("__ASSET__:file___ASSET__flixel_sounds_flixel_ogg",9b,a0,bd,8d);
+            	HX_STACKFRAME(&_hx_pos_e90b7df9adaef5b6_794_boot)
+HXDLIN( 794)		resourceName = HX_("__ASSET__:file___ASSET__flixel_sounds_flixel_ogg",9b,a0,bd,8d);
             	}
 }
 

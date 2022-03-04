@@ -1,5 +1,6 @@
 package;
 
+import haxe.xml.Access;
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -46,6 +47,7 @@ class StoryMenuState extends MusicBeatState
 
 	var grpLocks:FlxTypedGroup<FlxSprite>;
 
+	private var sex:Character = null; //this creates the sex variable
 	var difficultySelectors:FlxGroup;
 	var sprDifficulty:FlxSprite;
 	var leftArrow:FlxSprite;
@@ -130,6 +132,17 @@ class StoryMenuState extends MusicBeatState
 			grpWeekCharacters.add(weekCharacterThing);
 		}
 
+		sex = new Character(1400, 350, 'other/him', false); //this adds the cursed walk cycle
+		sex.setGraphicSize(Std.int(sex.width * 0.8));
+		sex.updateHitbox();
+		sex.screenCenter(X);
+		sex.dance();
+		sex.updateHitbox();
+		sex.x -= -500;
+		sex.y -= -200;
+		sex.visible = true;
+		add(sex);
+
 		difficultySelectors = new FlxGroup();
 		add(difficultySelectors);
 
@@ -169,7 +182,7 @@ class StoryMenuState extends MusicBeatState
 		var tracksSprite:FlxSprite = new FlxSprite(FlxG.width * 0.07, bgSprite.y + 425).loadGraphic(Paths.image('Menu_Tracks'));
 		tracksSprite.antialiasing = ClientPrefs.globalAntialiasing;
 		//add(tracksSprite);
-
+		
 		txtTracklist = new FlxText(FlxG.width * 0.05, tracksSprite.y + 60, 0, "", 32);
 		txtTracklist.alignment = CENTER;
 		txtTracklist.font = rankText.font;
@@ -184,10 +197,13 @@ class StoryMenuState extends MusicBeatState
 		super.create();
 	}
 
-	override function closeSubState() {
+	override function closeSubState() { //this makes the sex man dance
 		persistentUpdate = true;
 		changeWeek();
 		super.closeSubState();
+		sex.dance();
+		sex.updateHitbox();
+		sex.visible = true;
 	}
 
 	override function update(elapsed:Float)

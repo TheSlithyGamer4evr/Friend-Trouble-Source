@@ -130,9 +130,9 @@ static const ::String _hx_array_data_14992103_1[] = {
 };
 HX_LOCAL_STACK_FRAME(_hx_pos_bddb8806f8971119_38_openSelectedSubstate,"options.OptionsState","openSelectedSubstate",0x28c3b341,"options.OptionsState.openSelectedSubstate","options/OptionsState.hx",38,0xaa608eba)
 HX_LOCAL_STACK_FRAME(_hx_pos_bddb8806f8971119_57_create,"options.OptionsState","create",0xc1bf1307,"options.OptionsState.create","options/OptionsState.hx",57,0xaa608eba)
-HX_LOCAL_STACK_FRAME(_hx_pos_bddb8806f8971119_92_closeSubState,"options.OptionsState","closeSubState",0xbc3ad39e,"options.OptionsState.closeSubState","options/OptionsState.hx",92,0xaa608eba)
-HX_LOCAL_STACK_FRAME(_hx_pos_bddb8806f8971119_97_update,"options.OptionsState","update",0xccb53214,"options.OptionsState.update","options/OptionsState.hx",97,0xaa608eba)
-HX_LOCAL_STACK_FRAME(_hx_pos_bddb8806f8971119_117_changeSelection,"options.OptionsState","changeSelection",0xa0e39351,"options.OptionsState.changeSelection","options/OptionsState.hx",117,0xaa608eba)
+HX_LOCAL_STACK_FRAME(_hx_pos_bddb8806f8971119_91_closeSubState,"options.OptionsState","closeSubState",0xbc3ad39e,"options.OptionsState.closeSubState","options/OptionsState.hx",91,0xaa608eba)
+HX_LOCAL_STACK_FRAME(_hx_pos_bddb8806f8971119_96_update,"options.OptionsState","update",0xccb53214,"options.OptionsState.update","options/OptionsState.hx",96,0xaa608eba)
+HX_LOCAL_STACK_FRAME(_hx_pos_bddb8806f8971119_116_changeSelection,"options.OptionsState","changeSelection",0xa0e39351,"options.OptionsState.changeSelection","options/OptionsState.hx",116,0xaa608eba)
 HX_LOCAL_STACK_FRAME(_hx_pos_bddb8806f8971119_34_boot,"options.OptionsState","boot",0x584b877d,"options.OptionsState.boot","options/OptionsState.hx",34,0xaa608eba)
 namespace options{
 
@@ -220,97 +220,96 @@ HXLINE(  62)			bg1 = imageToReturn;
 HXLINE(  62)			bg1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("menuBGoptions",ba,7a,4f,04)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
             		}
 HXDLIN(  62)		 ::flixel::FlxSprite bg2 = bg->loadGraphic(bg1,null(),null(),null(),null(),null());
-HXLINE(  63)		bg2->set_color(-1412611);
-HXLINE(  64)		bg2->setGraphicSize(::Std_obj::_hx_int((bg2->get_width() * ((Float)1.1))),null());
-HXLINE(  65)		bg2->updateHitbox();
-HXLINE(  66)		bg2->screenCenter(null());
-HXLINE(  67)		bg2->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
-HXLINE(  68)		this->add(bg2);
-HXLINE(  70)		this->grpOptions =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE(  71)		this->add(this->grpOptions);
-HXLINE(  73)		{
-HXLINE(  73)			int _g = 0;
-HXDLIN(  73)			int _g1 = this->options->length;
-HXDLIN(  73)			while((_g < _g1)){
-HXLINE(  73)				_g = (_g + 1);
-HXDLIN(  73)				int i = (_g - 1);
-HXLINE(  75)				 ::Alphabet optionText =  ::Alphabet_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),this->options->__get(i),true,false,null(),null());
-HXLINE(  76)				optionText->screenCenter(null());
-HXLINE(  77)				optionText->set_y((optionText->y + ((( (Float)(100) ) * (( (Float)(i) ) - (( (Float)(this->options->length) ) / ( (Float)(2) )))) + 50)));
-HXLINE(  78)				this->grpOptions->add(optionText).StaticCast<  ::Alphabet >();
+HXLINE(  63)		bg2->setGraphicSize(::Std_obj::_hx_int((bg2->get_width() * ((Float)1.1))),null());
+HXLINE(  64)		bg2->updateHitbox();
+HXLINE(  65)		bg2->screenCenter(null());
+HXLINE(  66)		bg2->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
+HXLINE(  67)		this->add(bg2);
+HXLINE(  69)		this->grpOptions =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE(  70)		this->add(this->grpOptions);
+HXLINE(  72)		{
+HXLINE(  72)			int _g = 0;
+HXDLIN(  72)			int _g1 = this->options->length;
+HXDLIN(  72)			while((_g < _g1)){
+HXLINE(  72)				_g = (_g + 1);
+HXDLIN(  72)				int i = (_g - 1);
+HXLINE(  74)				 ::Alphabet optionText =  ::Alphabet_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),this->options->__get(i),true,false,null(),null());
+HXLINE(  75)				optionText->screenCenter(null());
+HXLINE(  76)				optionText->set_y((optionText->y + ((( (Float)(100) ) * (( (Float)(i) ) - (( (Float)(this->options->length) ) / ( (Float)(2) )))) + 50)));
+HXLINE(  77)				this->grpOptions->add(optionText).StaticCast<  ::Alphabet >();
             			}
             		}
-HXLINE(  81)		this->selectorLeft =  ::Alphabet_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),HX_(">",3e,00,00,00),true,false,null(),null());
-HXLINE(  82)		this->add(this->selectorLeft);
-HXLINE(  83)		this->selectorRight =  ::Alphabet_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),HX_("<",3c,00,00,00),true,false,null(),null());
-HXLINE(  84)		this->add(this->selectorRight);
-HXLINE(  86)		this->changeSelection(null());
-HXLINE(  87)		::ClientPrefs_obj::saveSettings();
-HXLINE(  89)		this->super::create();
+HXLINE(  80)		this->selectorLeft =  ::Alphabet_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),HX_(">",3e,00,00,00),true,false,null(),null());
+HXLINE(  81)		this->add(this->selectorLeft);
+HXLINE(  82)		this->selectorRight =  ::Alphabet_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),HX_("<",3c,00,00,00),true,false,null(),null());
+HXLINE(  83)		this->add(this->selectorRight);
+HXLINE(  85)		this->changeSelection(null());
+HXLINE(  86)		::ClientPrefs_obj::saveSettings();
+HXLINE(  88)		this->super::create();
             	}
 
 
 void OptionsState_obj::closeSubState(){
-            	HX_STACKFRAME(&_hx_pos_bddb8806f8971119_92_closeSubState)
-HXLINE(  93)		this->super::closeSubState();
-HXLINE(  94)		::ClientPrefs_obj::saveSettings();
+            	HX_STACKFRAME(&_hx_pos_bddb8806f8971119_91_closeSubState)
+HXLINE(  92)		this->super::closeSubState();
+HXLINE(  93)		::ClientPrefs_obj::saveSettings();
             	}
 
 
 void OptionsState_obj::update(Float elapsed){
-            	HX_GC_STACKFRAME(&_hx_pos_bddb8806f8971119_97_update)
-HXLINE(  98)		this->super::update(elapsed);
-HXLINE( 100)		if (::PlayerSettings_obj::player1->controls->_ui_upP->check()) {
-HXLINE( 101)			this->changeSelection(-1);
+            	HX_GC_STACKFRAME(&_hx_pos_bddb8806f8971119_96_update)
+HXLINE(  97)		this->super::update(elapsed);
+HXLINE(  99)		if (::PlayerSettings_obj::player1->controls->_ui_upP->check()) {
+HXLINE( 100)			this->changeSelection(-1);
             		}
-HXLINE( 103)		if (::PlayerSettings_obj::player1->controls->_ui_downP->check()) {
-HXLINE( 104)			this->changeSelection(1);
+HXLINE( 102)		if (::PlayerSettings_obj::player1->controls->_ui_downP->check()) {
+HXLINE( 103)			this->changeSelection(1);
             		}
-HXLINE( 107)		if (::PlayerSettings_obj::player1->controls->_back->check()) {
-HXLINE( 108)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 108)			_hx_tmp->play(::Paths_obj::sound(HX_("cancelMenu",39,a4,43,b7),null()),null(),null(),null(),null(),null());
-HXLINE( 109)			::MusicBeatState_obj::switchState( ::MainMenuState_obj::__alloc( HX_CTX ,null(),null()));
+HXLINE( 106)		if (::PlayerSettings_obj::player1->controls->_back->check()) {
+HXLINE( 107)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 107)			_hx_tmp->play(::Paths_obj::sound(HX_("cancelMenu",39,a4,43,b7),null()),null(),null(),null(),null(),null());
+HXLINE( 108)			::MusicBeatState_obj::switchState( ::MainMenuState_obj::__alloc( HX_CTX ,null(),null()));
             		}
-HXLINE( 112)		if (::PlayerSettings_obj::player1->controls->_accept->check()) {
-HXLINE( 113)			this->openSelectedSubstate(this->options->__get(::options::OptionsState_obj::curSelected));
+HXLINE( 111)		if (::PlayerSettings_obj::player1->controls->_accept->check()) {
+HXLINE( 112)			this->openSelectedSubstate(this->options->__get(::options::OptionsState_obj::curSelected));
             		}
             	}
 
 
 void OptionsState_obj::changeSelection(::hx::Null< int >  __o_change){
             		int change = __o_change.Default(0);
-            	HX_STACKFRAME(&_hx_pos_bddb8806f8971119_117_changeSelection)
-HXLINE( 118)		 ::Dynamic _hx_tmp = ::hx::ClassOf< ::options::OptionsState >();
-HXDLIN( 118)		::options::OptionsState_obj::curSelected = (::options::OptionsState_obj::curSelected + change);
-HXLINE( 119)		if ((::options::OptionsState_obj::curSelected < 0)) {
-HXLINE( 120)			::options::OptionsState_obj::curSelected = (this->options->length - 1);
+            	HX_STACKFRAME(&_hx_pos_bddb8806f8971119_116_changeSelection)
+HXLINE( 117)		 ::Dynamic _hx_tmp = ::hx::ClassOf< ::options::OptionsState >();
+HXDLIN( 117)		::options::OptionsState_obj::curSelected = (::options::OptionsState_obj::curSelected + change);
+HXLINE( 118)		if ((::options::OptionsState_obj::curSelected < 0)) {
+HXLINE( 119)			::options::OptionsState_obj::curSelected = (this->options->length - 1);
             		}
-HXLINE( 121)		if ((::options::OptionsState_obj::curSelected >= this->options->length)) {
-HXLINE( 122)			::options::OptionsState_obj::curSelected = 0;
+HXLINE( 120)		if ((::options::OptionsState_obj::curSelected >= this->options->length)) {
+HXLINE( 121)			::options::OptionsState_obj::curSelected = 0;
             		}
-HXLINE( 124)		int bullShit = 0;
-HXLINE( 126)		{
-HXLINE( 126)			int _g = 0;
-HXDLIN( 126)			::Array< ::Dynamic> _g1 = this->grpOptions->members;
-HXDLIN( 126)			while((_g < _g1->length)){
-HXLINE( 126)				 ::Alphabet item = _g1->__get(_g).StaticCast<  ::Alphabet >();
-HXDLIN( 126)				_g = (_g + 1);
-HXLINE( 127)				item->targetY = ( (Float)((bullShit - ::options::OptionsState_obj::curSelected)) );
-HXLINE( 128)				bullShit = (bullShit + 1);
-HXLINE( 130)				item->set_alpha(((Float)0.6));
-HXLINE( 131)				if ((item->targetY == 0)) {
-HXLINE( 132)					item->set_alpha(( (Float)(1) ));
-HXLINE( 133)					this->selectorLeft->set_x((item->x - ( (Float)(63) )));
-HXLINE( 134)					this->selectorLeft->set_y(item->y);
-HXLINE( 135)					 ::Alphabet _hx_tmp = this->selectorRight;
-HXDLIN( 135)					Float item1 = item->x;
-HXDLIN( 135)					_hx_tmp->set_x(((item1 + item->get_width()) + 15));
-HXLINE( 136)					this->selectorRight->set_y(item->y);
+HXLINE( 123)		int bullShit = 0;
+HXLINE( 125)		{
+HXLINE( 125)			int _g = 0;
+HXDLIN( 125)			::Array< ::Dynamic> _g1 = this->grpOptions->members;
+HXDLIN( 125)			while((_g < _g1->length)){
+HXLINE( 125)				 ::Alphabet item = _g1->__get(_g).StaticCast<  ::Alphabet >();
+HXDLIN( 125)				_g = (_g + 1);
+HXLINE( 126)				item->targetY = ( (Float)((bullShit - ::options::OptionsState_obj::curSelected)) );
+HXLINE( 127)				bullShit = (bullShit + 1);
+HXLINE( 129)				item->set_alpha(((Float)0.6));
+HXLINE( 130)				if ((item->targetY == 0)) {
+HXLINE( 131)					item->set_alpha(( (Float)(1) ));
+HXLINE( 132)					this->selectorLeft->set_x((item->x - ( (Float)(63) )));
+HXLINE( 133)					this->selectorLeft->set_y(item->y);
+HXLINE( 134)					 ::Alphabet _hx_tmp = this->selectorRight;
+HXDLIN( 134)					Float item1 = item->x;
+HXDLIN( 134)					_hx_tmp->set_x(((item1 + item->get_width()) + 15));
+HXLINE( 135)					this->selectorRight->set_y(item->y);
             				}
             			}
             		}
-HXLINE( 139)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
-HXDLIN( 139)		_hx_tmp1->play(::Paths_obj::sound(HX_("scrollMenu",4c,d4,18,06),null()),null(),null(),null(),null(),null());
+HXLINE( 138)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
+HXDLIN( 138)		_hx_tmp1->play(::Paths_obj::sound(HX_("scrollMenu",4c,d4,18,06),null()),null(),null(),null(),null(),null());
             	}
 
 

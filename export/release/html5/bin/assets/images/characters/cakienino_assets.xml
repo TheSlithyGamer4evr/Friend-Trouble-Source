@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cakienino_assets.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cakie Down miss0000" x="2080" y="100" width="576" height="438" frameX="0" frameY="-27" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie Down miss0001" x="2080" y="100" width="576" height="438" frameX="0" frameY="-27" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie Down miss0002" x="100" y="100" width="560" height="464" frameX="-8" frameY="-1" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0003" x="760" y="100" width="560" height="465" frameX="-8" frameY="0" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0004" x="1420" y="100" width="560" height="464" frameX="-8" frameY="-1" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0005" x="100" y="100" width="560" height="464" frameX="-8" frameY="-1" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0006" x="760" y="100" width="560" height="465" frameX="-8" frameY="0" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0007" x="1420" y="100" width="560" height="464" frameX="-8" frameY="-1" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0008" x="100" y="100" width="560" height="464" frameX="-8" frameY="-1" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0009" x="760" y="100" width="560" height="465" frameX="-8" frameY="0" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0010" x="1420" y="100" width="560" height="464" frameX="-8" frameY="-1" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0011" x="100" y="100" width="560" height="464" frameX="-8" frameY="-1" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0012" x="760" y="100" width="560" height="465" frameX="-8" frameY="0" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0013" x="1420" y="100" width="560" height="464" frameX="-8" frameY="-1" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie Down miss0014" x="100" y="100" width="560" height="464" frameX="-8" frameY="-1" frameWidth="576" frameHeight="465"/>
+	<SubTexture name="cakie down10000" x="2080" y="100" width="576" height="438" frameX="0" frameY="-20" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10001" x="2080" y="100" width="576" height="438" frameX="0" frameY="-20" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10002" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10003" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10004" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10005" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10006" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10007" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10008" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10009" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10010" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10011" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10012" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10013" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie down10014" x="2756" y="100" width="564" height="458" frameX="-5" frameY="0" frameWidth="576" frameHeight="458"/>
+	<SubTexture name="cakie idle0000" x="100" y="665" width="560" height="434" frameX="0" frameY="-40" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0001" x="100" y="665" width="560" height="434" frameX="0" frameY="-40" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0002" x="760" y="665" width="542" height="455" frameX="-8" frameY="-19" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0003" x="760" y="665" width="542" height="455" frameX="-8" frameY="-19" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0004" x="1402" y="665" width="507" height="465" frameX="-14" frameY="-8" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0005" x="1402" y="665" width="507" height="465" frameX="-14" frameY="-8" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0006" x="2009" y="665" width="516" height="473" frameX="-6" frameY="0" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0007" x="2009" y="665" width="516" height="473" frameX="-6" frameY="0" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0008" x="2009" y="665" width="516" height="473" frameX="-6" frameY="0" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0009" x="2009" y="665" width="516" height="473" frameX="-6" frameY="0" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0010" x="2009" y="665" width="516" height="473" frameX="-6" frameY="0" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0011" x="2009" y="665" width="516" height="473" frameX="-6" frameY="0" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0012" x="2009" y="665" width="516" height="473" frameX="-6" frameY="0" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0013" x="2009" y="665" width="516" height="473" frameX="-6" frameY="0" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie idle0014" x="2009" y="665" width="516" height="473" frameX="-6" frameY="0" frameWidth="560" frameHeight="474"/>
+	<SubTexture name="cakie Left miss0000" x="739" y="1365" width="510" height="585" frameX="0" frameY="-15" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0001" x="739" y="1365" width="510" height="585" frameX="0" frameY="-15" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0002" x="2625" y="665" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0003" x="3264" y="665" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0004" x="100" y="1365" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0005" x="2625" y="665" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0006" x="3264" y="665" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0007" x="100" y="1365" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0008" x="2625" y="665" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0009" x="3264" y="665" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0010" x="100" y="1365" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0011" x="2625" y="665" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0012" x="3264" y="665" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0013" x="100" y="1365" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie Left miss0014" x="2625" y="665" width="539" height="600" frameX="-16" frameY="0" frameWidth="555" frameHeight="600"/>
+	<SubTexture name="cakie left10000" x="739" y="1365" width="510" height="585" frameX="0" frameY="-15" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10001" x="739" y="1365" width="510" height="585" frameX="0" frameY="-15" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10002" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10003" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10004" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10005" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10006" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10007" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10008" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10009" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10010" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10011" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10012" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10013" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie left10014" x="1349" y="1365" width="535" height="600" frameX="-10" frameY="0" frameWidth="545" frameHeight="600"/>
+	<SubTexture name="cakie Right miss0000" x="100" y="2065" width="548" height="491" frameX="-12" frameY="-1" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie Right miss0001" x="100" y="2065" width="548" height="491" frameX="-12" frameY="-1" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie Right miss0002" x="1984" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0003" x="2637" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0004" x="3290" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0005" x="1984" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0006" x="2637" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0007" x="3290" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0008" x="1984" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0009" x="2637" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0010" x="3290" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0011" x="1984" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0012" x="2637" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0013" x="3290" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie Right miss0014" x="1984" y="1365" width="553" height="492" frameX="0" frameY="0" frameWidth="560" frameHeight="492"/>
+	<SubTexture name="cakie right10000" x="100" y="2065" width="548" height="491" frameX="-11" frameY="0" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10001" x="100" y="2065" width="548" height="491" frameX="-11" frameY="0" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10002" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10003" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10004" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10005" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10006" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10007" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10008" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10009" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10010" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10011" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10012" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10013" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie right10014" x="748" y="2065" width="551" height="489" frameX="0" frameY="-2" frameWidth="559" frameHeight="491"/>
+	<SubTexture name="cakie Up miss0000" x="100" y="2707" width="550" height="607" frameX="-19" frameY="0" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0001" x="100" y="2707" width="550" height="607" frameX="-19" frameY="0" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0002" x="1399" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0003" x="2071" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0004" x="2743" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0005" x="1399" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0006" x="2071" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0007" x="2743" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0008" x="1399" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0009" x="2071" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0010" x="2743" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0011" x="1399" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0012" x="2071" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0013" x="2743" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie Up miss0014" x="1399" y="2065" width="572" height="542" frameX="0" frameY="-65" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10000" x="100" y="2707" width="550" height="607" frameX="-22" frameY="0" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10001" x="100" y="2707" width="550" height="607" frameX="-22" frameY="0" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10002" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10003" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10004" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10005" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10006" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10007" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10008" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10009" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10010" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10011" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10012" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10013" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+	<SubTexture name="cakie up10014" x="750" y="2707" width="570" height="569" frameX="0" frameY="-38" frameWidth="572" frameHeight="607"/>
+</TextureAtlas>

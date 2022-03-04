@@ -184,15 +184,6 @@
 #ifndef INCLUDED_haxe_ds_StringMap
 #include <haxe/ds/StringMap.h>
 #endif
-#ifndef INCLUDED_lime_app_Application
-#include <lime/app/Application.h>
-#endif
-#ifndef INCLUDED_lime_app_IModule
-#include <lime/app/IModule.h>
-#endif
-#ifndef INCLUDED_lime_app_Module
-#include <lime/app/Module.h>
-#endif
 #ifndef INCLUDED_options_OptionsState
 #include <options/OptionsState.h>
 #endif
@@ -208,20 +199,20 @@ static const ::String _hx_array_data_205e8859_1[] = {
 	HX_("story_mode",2d,63,e6,a4),HX_("credits",1a,0e,5e,13),HX_("options",5e,33,fe,df),
 };
 HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_47_create,"MainMenuState","create",0x6b76e271,"MainMenuState.create","MainMenuState.hx",47,0x0e5db805)
-HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_162_giveAchievement,"MainMenuState","giveAchievement",0x39ddd809,"MainMenuState.giveAchievement","MainMenuState.hx",162,0x0e5db805)
-HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_267_update,"MainMenuState","update",0x766d017e,"MainMenuState.update","MainMenuState.hx",267,0x0e5db805)
-HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_172_update,"MainMenuState","update",0x766d017e,"MainMenuState.update","MainMenuState.hx",172,0x0e5db805)
-HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_217_update,"MainMenuState","update",0x766d017e,"MainMenuState.update","MainMenuState.hx",217,0x0e5db805)
-HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_223_update,"MainMenuState","update",0x766d017e,"MainMenuState.update","MainMenuState.hx",223,0x0e5db805)
-HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_230_update,"MainMenuState","update",0x766d017e,"MainMenuState.update","MainMenuState.hx",230,0x0e5db805)
-HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_282_changeItem,"MainMenuState","changeItem",0xf62bd498,"MainMenuState.changeItem","MainMenuState.hx",282,0x0e5db805)
-HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_273_changeItem,"MainMenuState","changeItem",0xf62bd498,"MainMenuState.changeItem","MainMenuState.hx",273,0x0e5db805)
+HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_160_giveAchievement,"MainMenuState","giveAchievement",0x39ddd809,"MainMenuState.giveAchievement","MainMenuState.hx",160,0x0e5db805)
+HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_265_update,"MainMenuState","update",0x766d017e,"MainMenuState.update","MainMenuState.hx",265,0x0e5db805)
+HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_170_update,"MainMenuState","update",0x766d017e,"MainMenuState.update","MainMenuState.hx",170,0x0e5db805)
+HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_215_update,"MainMenuState","update",0x766d017e,"MainMenuState.update","MainMenuState.hx",215,0x0e5db805)
+HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_221_update,"MainMenuState","update",0x766d017e,"MainMenuState.update","MainMenuState.hx",221,0x0e5db805)
+HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_228_update,"MainMenuState","update",0x766d017e,"MainMenuState.update","MainMenuState.hx",228,0x0e5db805)
+HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_280_changeItem,"MainMenuState","changeItem",0xf62bd498,"MainMenuState.changeItem","MainMenuState.hx",280,0x0e5db805)
+HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_271_changeItem,"MainMenuState","changeItem",0xf62bd498,"MainMenuState.changeItem","MainMenuState.hx",271,0x0e5db805)
 HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_28_boot,"MainMenuState","boot",0xa741c867,"MainMenuState.boot","MainMenuState.hx",28,0x0e5db805)
 HX_LOCAL_STACK_FRAME(_hx_pos_b0351dbbcbe2d566_29_boot,"MainMenuState","boot",0xa741c867,"MainMenuState.boot","MainMenuState.hx",29,0x0e5db805)
 
 void MainMenuState_obj::__construct( ::flixel::addons::transition::TransitionData TransIn, ::flixel::addons::transition::TransitionData TransOut){
             	HX_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_26_new)
-HXLINE( 169)		this->selectedSomethin = false;
+HXLINE( 167)		this->selectedSomethin = false;
 HXLINE(  35)		this->optionShit = ::Array_obj< ::String >::fromData( _hx_array_data_205e8859_1,3);
 HXLINE(  26)		super::__construct(TransIn,TransOut);
             	}
@@ -375,47 +366,44 @@ HXLINE( 122)				menuItem->updateHitbox();
             			}
             		}
 HXLINE( 125)		::flixel::FlxG_obj::camera->follow(this->camFollowPos,null(),1);
-HXLINE( 127)		 ::flixel::text::FlxText versionShit =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,12,(::flixel::FlxG_obj::height - 64),0,HX_("Friend Trouble v1.0",08,2c,d3,f1),12,null());
+HXLINE( 127)		 ::flixel::text::FlxText versionShit =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,12,(::flixel::FlxG_obj::height - 64),0,HX_("Friend Trouble v1.5",0d,2c,d3,f1),12,null());
 HXLINE( 128)		versionShit->scrollFactor->set(null(),null());
-HXLINE( 129)		versionShit->setFormat(HX_("VCR OSD Mono",be,44,e4,b8),16,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
+HXLINE( 129)		versionShit->setFormat(HX_("sega",2c,87,50,4c),46,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
 HXLINE( 130)		this->add(versionShit);
-HXLINE( 131)		 ::flixel::text::FlxText versionShit1 =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,12,(::flixel::FlxG_obj::height - 44),0,(HX_("Psych Engine v",5d,a0,37,c7) + ::MainMenuState_obj::psychEngineVersion),12,null());
+HXLINE( 131)		 ::flixel::text::FlxText versionShit1 =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,12,(::flixel::FlxG_obj::height - 64),0,HX_("By Cakieyee, PunMaster, Ninotub, TheSlithyGamer4evr, and TheOtherHand",79,ad,3a,6e),12,null());
 HXLINE( 132)		versionShit1->scrollFactor->set(null(),null());
-HXLINE( 133)		versionShit1->setFormat(HX_("VCR OSD Mono",be,44,e4,b8),16,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
-HXLINE( 134)		this->add(versionShit1);
-HXLINE( 135)		int versionShit2 = (::flixel::FlxG_obj::height - 24);
-HXDLIN( 135)		 ::flixel::text::FlxText versionShit3 =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,12,versionShit2,0,(HX_("Friday Night Funkin' v",03,65,b0,2f) + ::lime::app::Application_obj::current->meta->get(HX_("version",18,e7,f1,7c))),12,null());
-HXLINE( 136)		versionShit3->scrollFactor->set(null(),null());
-HXLINE( 137)		versionShit3->setFormat(HX_("VCR OSD Mono",be,44,e4,b8),16,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
-HXLINE( 138)		this->add(versionShit3);
-HXLINE( 142)		this->changeItem(null());
-HXLINE( 145)		::Achievements_obj::loadAchievements();
-HXLINE( 146)		 ::Date leDate = ::Date_obj::now();
-HXLINE( 147)		bool _hx_tmp5;
-HXDLIN( 147)		if ((leDate->getDay() == 5)) {
-HXLINE( 147)			_hx_tmp5 = (leDate->getHours() >= 18);
+HXLINE( 133)		versionShit1->set_x((versionShit1->x - ( (Float)(-150) )));
+HXLINE( 134)		versionShit1->set_y((versionShit1->y - ( (Float)(650) )));
+HXLINE( 135)		versionShit1->setFormat(HX_("sega",2c,87,50,4c),36,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
+HXLINE( 136)		this->add(versionShit1);
+HXLINE( 140)		this->changeItem(null());
+HXLINE( 143)		::Achievements_obj::loadAchievements();
+HXLINE( 144)		 ::Date leDate = ::Date_obj::now();
+HXLINE( 145)		bool _hx_tmp5;
+HXDLIN( 145)		if ((leDate->getDay() == 5)) {
+HXLINE( 145)			_hx_tmp5 = (leDate->getHours() >= 18);
             		}
             		else {
-HXLINE( 147)			_hx_tmp5 = false;
+HXLINE( 145)			_hx_tmp5 = false;
             		}
-HXDLIN( 147)		if (_hx_tmp5) {
-HXLINE( 148)			int achieveID = ::Achievements_obj::getAchievementIndex(HX_("friday_night_play",9b,1f,4e,c7));
-HXLINE( 149)			if (!(::Achievements_obj::isAchievementUnlocked(( (::String)(::Achievements_obj::achievementsStuff->__get(achieveID)->__GetItem(2)) )))) {
-HXLINE( 150)				::Achievements_obj::achievementsMap->set(( (::String)(::Achievements_obj::achievementsStuff->__get(achieveID)->__GetItem(2)) ),true);
-HXLINE( 151)				this->giveAchievement();
-HXLINE( 152)				::ClientPrefs_obj::saveSettings();
+HXDLIN( 145)		if (_hx_tmp5) {
+HXLINE( 146)			int achieveID = ::Achievements_obj::getAchievementIndex(HX_("friday_night_play",9b,1f,4e,c7));
+HXLINE( 147)			if (!(::Achievements_obj::isAchievementUnlocked(( (::String)(::Achievements_obj::achievementsStuff->__get(achieveID)->__GetItem(2)) )))) {
+HXLINE( 148)				::Achievements_obj::achievementsMap->set(( (::String)(::Achievements_obj::achievementsStuff->__get(achieveID)->__GetItem(2)) ),true);
+HXLINE( 149)				this->giveAchievement();
+HXLINE( 150)				::ClientPrefs_obj::saveSettings();
             			}
             		}
-HXLINE( 157)		this->super::create();
+HXLINE( 155)		this->super::create();
             	}
 
 
 void MainMenuState_obj::giveAchievement(){
-            	HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_162_giveAchievement)
-HXLINE( 163)		this->add( ::AchievementObject_obj::__alloc( HX_CTX ,HX_("friday_night_play",9b,1f,4e,c7),this->camAchievement));
-HXLINE( 164)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 164)		_hx_tmp->play(::Paths_obj::sound(HX_("confirmMenu",bf,8e,fe,3c),null()),((Float)0.7),null(),null(),null(),null());
-HXLINE( 165)		::haxe::Log_obj::trace(HX_("Giving achievement \"friday_night_play\"",e6,1b,7d,1f),::hx::SourceInfo(HX_("source/MainMenuState.hx",f9,ee,86,cf),165,HX_("MainMenuState",59,88,5e,20),HX_("giveAchievement",1e,ea,83,24)));
+            	HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_160_giveAchievement)
+HXLINE( 161)		this->add( ::AchievementObject_obj::__alloc( HX_CTX ,HX_("friday_night_play",9b,1f,4e,c7),this->camAchievement));
+HXLINE( 162)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 162)		_hx_tmp->play(::Paths_obj::sound(HX_("confirmMenu",bf,8e,fe,3c),null()),((Float)0.7),null(),null(),null(),null());
+HXLINE( 163)		::haxe::Log_obj::trace(HX_("Giving achievement \"friday_night_play\"",e6,1b,7d,1f),::hx::SourceInfo(HX_("source/MainMenuState.hx",f9,ee,86,cf),163,HX_("MainMenuState",59,88,5e,20),HX_("giveAchievement",1e,ea,83,24)));
             	}
 
 
@@ -424,54 +412,54 @@ HX_DEFINE_DYNAMIC_FUNC0(MainMenuState_obj,giveAchievement,(void))
 void MainMenuState_obj::update(Float elapsed){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_3) HXARGC(1)
             		void _hx_run( ::flixel::FlxSprite spr){
-            			HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_267_update)
+            			HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_265_update)
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_172_update)
-HXDLIN( 172)		 ::MainMenuState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 173)		if ((::flixel::FlxG_obj::sound->music->_volume < ((Float)0.8))) {
-HXLINE( 175)			 ::flixel::_hx_system::FlxSound fh = ::flixel::FlxG_obj::sound->music;
-HXDLIN( 175)			fh->set_volume((fh->_volume + (((Float)0.5) * ::flixel::FlxG_obj::elapsed)));
+            	HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_170_update)
+HXDLIN( 170)		 ::MainMenuState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 171)		if ((::flixel::FlxG_obj::sound->music->_volume < ((Float)0.8))) {
+HXLINE( 173)			 ::flixel::_hx_system::FlxSound fh = ::flixel::FlxG_obj::sound->music;
+HXDLIN( 173)			fh->set_volume((fh->_volume + (((Float)0.5) * ::flixel::FlxG_obj::elapsed)));
             		}
-HXLINE( 178)		Float lerpVal = ::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(elapsed * ((Float)7.5))));
-HXLINE( 179)		Float a = this->camFollowPos->x;
-HXDLIN( 179)		Float a1 = this->camFollowPos->y;
-HXDLIN( 179)		this->camFollowPos->setPosition((a + (lerpVal * (this->camFollow->x - a))),(a1 + (lerpVal * (this->camFollow->y - a1))));
-HXLINE( 181)		if (!(this->selectedSomethin)) {
-HXLINE( 183)			if (::PlayerSettings_obj::player1->controls->_ui_upP->check()) {
-HXLINE( 185)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 185)				_hx_tmp->play(::Paths_obj::sound(HX_("scrollMenu",4c,d4,18,06),null()),null(),null(),null(),null(),null());
-HXLINE( 186)				this->changeItem(-1);
+HXLINE( 176)		Float lerpVal = ::Math_obj::max(( (Float)(0) ),::Math_obj::min(( (Float)(1) ),(elapsed * ((Float)7.5))));
+HXLINE( 177)		Float a = this->camFollowPos->x;
+HXDLIN( 177)		Float a1 = this->camFollowPos->y;
+HXDLIN( 177)		this->camFollowPos->setPosition((a + (lerpVal * (this->camFollow->x - a))),(a1 + (lerpVal * (this->camFollow->y - a1))));
+HXLINE( 179)		if (!(this->selectedSomethin)) {
+HXLINE( 181)			if (::PlayerSettings_obj::player1->controls->_ui_upP->check()) {
+HXLINE( 183)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 183)				_hx_tmp->play(::Paths_obj::sound(HX_("scrollMenu",4c,d4,18,06),null()),null(),null(),null(),null(),null());
+HXLINE( 184)				this->changeItem(-1);
             			}
-HXLINE( 189)			if (::PlayerSettings_obj::player1->controls->_ui_downP->check()) {
-HXLINE( 191)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 191)				_hx_tmp->play(::Paths_obj::sound(HX_("scrollMenu",4c,d4,18,06),null()),null(),null(),null(),null(),null());
-HXLINE( 192)				this->changeItem(1);
+HXLINE( 187)			if (::PlayerSettings_obj::player1->controls->_ui_downP->check()) {
+HXLINE( 189)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 189)				_hx_tmp->play(::Paths_obj::sound(HX_("scrollMenu",4c,d4,18,06),null()),null(),null(),null(),null(),null());
+HXLINE( 190)				this->changeItem(1);
             			}
-HXLINE( 195)			if (::PlayerSettings_obj::player1->controls->_back->check()) {
-HXLINE( 197)				this->selectedSomethin = true;
-HXLINE( 198)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 198)				_hx_tmp->play(::Paths_obj::sound(HX_("cancelMenu",39,a4,43,b7),null()),null(),null(),null(),null(),null());
-HXLINE( 199)				::MusicBeatState_obj::switchState( ::TitleState_obj::__alloc( HX_CTX ,null(),null()));
+HXLINE( 193)			if (::PlayerSettings_obj::player1->controls->_back->check()) {
+HXLINE( 195)				this->selectedSomethin = true;
+HXLINE( 196)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 196)				_hx_tmp->play(::Paths_obj::sound(HX_("cancelMenu",39,a4,43,b7),null()),null(),null(),null(),null(),null());
+HXLINE( 197)				::MusicBeatState_obj::switchState( ::TitleState_obj::__alloc( HX_CTX ,null(),null()));
             			}
-HXLINE( 202)			if (::PlayerSettings_obj::player1->controls->_accept->check()) {
-HXLINE( 204)				if ((this->optionShit->__get(::MainMenuState_obj::curSelected) == HX_("donate",6f,f1,29,2e))) {
-HXLINE( 206)					::CoolUtil_obj::browserLoad(HX_("https://ninja-muffin24.itch.io/funkin",69,b0,72,92));
+HXLINE( 200)			if (::PlayerSettings_obj::player1->controls->_accept->check()) {
+HXLINE( 202)				if ((this->optionShit->__get(::MainMenuState_obj::curSelected) == HX_("donate",6f,f1,29,2e))) {
+HXLINE( 204)					::CoolUtil_obj::browserLoad(HX_("https://ninja-muffin24.itch.io/funkin",69,b0,72,92));
             				}
             				else {
             					HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::MainMenuState,_gthis) HXARGC(1)
             					void _hx_run( ::flixel::FlxSprite spr){
-            						HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_217_update)
-HXLINE( 217)						if ((::MainMenuState_obj::curSelected != spr->ID)) {
+            						HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_215_update)
+HXLINE( 215)						if ((::MainMenuState_obj::curSelected != spr->ID)) {
             							HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::flixel::FlxSprite,spr) HXARGC(1)
             							void _hx_run( ::flixel::tweens::FlxTween twn){
-            								HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_223_update)
-HXLINE( 223)								spr->kill();
+            								HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_221_update)
+HXLINE( 221)								spr->kill();
             							}
             							HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 219)							::flixel::tweens::FlxTween_obj::tween(spr, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE( 217)							::flixel::tweens::FlxTween_obj::tween(spr, ::Dynamic(::hx::Anon_obj::Create(1)
             								->setFixed(0,HX_("alpha",5e,a7,96,21),0)),((Float)0.4), ::Dynamic(::hx::Anon_obj::Create(2)
             								->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::quadOut_dyn())
             								->setFixed(1,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_0(spr)))));
@@ -479,92 +467,92 @@ HXLINE( 219)							::flixel::tweens::FlxTween_obj::tween(spr, ::Dynamic(::hx::An
             						else {
             							HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::MainMenuState,_gthis) HXARGC(1)
             							void _hx_run( ::flixel::effects::FlxFlicker flick){
-            								HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_230_update)
-HXLINE( 231)								::String daChoice = _gthis->optionShit->__get(::MainMenuState_obj::curSelected);
-HXLINE( 233)								::String _hx_switch_0 = daChoice;
+            								HX_GC_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_228_update)
+HXLINE( 229)								::String daChoice = _gthis->optionShit->__get(::MainMenuState_obj::curSelected);
+HXLINE( 231)								::String _hx_switch_0 = daChoice;
             								if (  (_hx_switch_0==HX_("awards",b6,92,c1,8d)) ){
-HXLINE( 244)									::MusicBeatState_obj::switchState( ::AchievementsMenuState_obj::__alloc( HX_CTX ,null(),null()));
-HXDLIN( 244)									goto _hx_goto_5;
+HXLINE( 242)									::MusicBeatState_obj::switchState( ::AchievementsMenuState_obj::__alloc( HX_CTX ,null(),null()));
+HXDLIN( 242)									goto _hx_goto_5;
             								}
             								if (  (_hx_switch_0==HX_("credits",1a,0e,5e,13)) ){
-HXLINE( 246)									::MusicBeatState_obj::switchState( ::CreditsState_obj::__alloc( HX_CTX ,null(),null()));
-HXDLIN( 246)									goto _hx_goto_5;
+HXLINE( 244)									::MusicBeatState_obj::switchState( ::CreditsState_obj::__alloc( HX_CTX ,null(),null()));
+HXDLIN( 244)									goto _hx_goto_5;
             								}
             								if (  (_hx_switch_0==HX_("freeplay",a0,90,86,22)) ){
-HXLINE( 238)									::MusicBeatState_obj::switchState( ::FreeplayState_obj::__alloc( HX_CTX ,null(),null()));
-HXDLIN( 238)									goto _hx_goto_5;
+HXLINE( 236)									::MusicBeatState_obj::switchState( ::FreeplayState_obj::__alloc( HX_CTX ,null(),null()));
+HXDLIN( 236)									goto _hx_goto_5;
             								}
             								if (  (_hx_switch_0==HX_("mods",71,d3,60,48)) ){
-HXLINE( 241)									::MusicBeatState_obj::switchState( ::ModsMenuState_obj::__alloc( HX_CTX ,null(),null()));
-HXDLIN( 241)									goto _hx_goto_5;
+HXLINE( 239)									::MusicBeatState_obj::switchState( ::ModsMenuState_obj::__alloc( HX_CTX ,null(),null()));
+HXDLIN( 239)									goto _hx_goto_5;
             								}
             								if (  (_hx_switch_0==HX_("options",5e,33,fe,df)) ){
-HXLINE( 248)									::MusicBeatState_obj::switchState( ::options::OptionsState_obj::__alloc( HX_CTX ,null(),null()));
-HXDLIN( 248)									goto _hx_goto_5;
+HXLINE( 246)									::MusicBeatState_obj::switchState( ::options::OptionsState_obj::__alloc( HX_CTX ,null(),null()));
+HXDLIN( 246)									goto _hx_goto_5;
             								}
             								if (  (_hx_switch_0==HX_("story_mode",2d,63,e6,a4)) ){
-HXLINE( 236)									::MusicBeatState_obj::switchState( ::StoryMenuState_obj::__alloc( HX_CTX ,null(),null()));
-HXDLIN( 236)									goto _hx_goto_5;
+HXLINE( 234)									::MusicBeatState_obj::switchState( ::StoryMenuState_obj::__alloc( HX_CTX ,null(),null()));
+HXDLIN( 234)									goto _hx_goto_5;
             								}
             								_hx_goto_5:;
             							}
             							HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 229)							::flixel::effects::FlxFlicker_obj::flicker(spr,1,((Float)0.06),false,false, ::Dynamic(new _hx_Closure_1(_gthis)),null());
+HXLINE( 227)							::flixel::effects::FlxFlicker_obj::flicker(spr,1,((Float)0.06),false,false, ::Dynamic(new _hx_Closure_1(_gthis)),null());
             						}
             					}
             					HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 210)					this->selectedSomethin = true;
-HXLINE( 211)					 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 211)					_hx_tmp->play(::Paths_obj::sound(HX_("confirmMenu",bf,8e,fe,3c),null()),null(),null(),null(),null(),null());
-HXLINE( 213)					if (::ClientPrefs_obj::flashing) {
-HXLINE( 213)						::flixel::effects::FlxFlicker_obj::flicker(this->magenta,((Float)1.1),((Float)0.15),false,null(),null(),null());
+HXLINE( 208)					this->selectedSomethin = true;
+HXLINE( 209)					 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 209)					_hx_tmp->play(::Paths_obj::sound(HX_("confirmMenu",bf,8e,fe,3c),null()),null(),null(),null(),null(),null());
+HXLINE( 211)					if (::ClientPrefs_obj::flashing) {
+HXLINE( 211)						::flixel::effects::FlxFlicker_obj::flicker(this->magenta,((Float)1.1),((Float)0.15),false,null(),null(),null());
             					}
-HXLINE( 215)					this->menuItems->forEach( ::Dynamic(new _hx_Closure_2(_gthis)),null());
+HXLINE( 213)					this->menuItems->forEach( ::Dynamic(new _hx_Closure_2(_gthis)),null());
             				}
             			}
             			else {
-HXLINE( 256)				if (::flixel::FlxG_obj::keys->checkKeyArrayState(this->debugKeys,2)) {
-HXLINE( 258)					this->selectedSomethin = true;
-HXLINE( 259)					::MusicBeatState_obj::switchState( ::editors::MasterEditorMenu_obj::__alloc( HX_CTX ,null(),null()));
+HXLINE( 254)				if (::flixel::FlxG_obj::keys->checkKeyArrayState(this->debugKeys,2)) {
+HXLINE( 256)					this->selectedSomethin = true;
+HXLINE( 257)					::MusicBeatState_obj::switchState( ::editors::MasterEditorMenu_obj::__alloc( HX_CTX ,null(),null()));
             				}
             			}
             		}
-HXLINE( 264)		this->super::update(elapsed);
-HXLINE( 266)		this->menuItems->forEach( ::Dynamic(new _hx_Closure_3()),null());
+HXLINE( 262)		this->super::update(elapsed);
+HXLINE( 264)		this->menuItems->forEach( ::Dynamic(new _hx_Closure_3()),null());
             	}
 
 
 void MainMenuState_obj::changeItem(::hx::Null< int >  __o_huh){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::MainMenuState,_gthis) HXARGC(1)
             		void _hx_run( ::flixel::FlxSprite spr){
-            			HX_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_282_changeItem)
-HXLINE( 283)			spr->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
-HXLINE( 284)			spr->updateHitbox();
-HXLINE( 286)			if ((spr->ID == ::MainMenuState_obj::curSelected)) {
-HXLINE( 288)				spr->animation->play(HX_("selected",5b,2a,6d,b1),null(),null(),null());
-HXLINE( 289)				Float add = ( (Float)(0) );
-HXLINE( 290)				if ((_gthis->menuItems->length > 4)) {
-HXLINE( 291)					add = ( (Float)((_gthis->menuItems->length * 8)) );
+            			HX_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_280_changeItem)
+HXLINE( 281)			spr->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
+HXLINE( 282)			spr->updateHitbox();
+HXLINE( 284)			if ((spr->ID == ::MainMenuState_obj::curSelected)) {
+HXLINE( 286)				spr->animation->play(HX_("selected",5b,2a,6d,b1),null(),null(),null());
+HXLINE( 287)				Float add = ( (Float)(0) );
+HXLINE( 288)				if ((_gthis->menuItems->length > 4)) {
+HXLINE( 289)					add = ( (Float)((_gthis->menuItems->length * 8)) );
             				}
-HXLINE( 293)				spr->centerOffsets(null());
+HXLINE( 291)				spr->centerOffsets(null());
             			}
             		}
             		HX_END_LOCAL_FUNC1((void))
 
             		int huh = __o_huh.Default(0);
-            	HX_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_273_changeItem)
-HXDLIN( 273)		 ::MainMenuState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 274)		 ::Dynamic _hx_tmp = ::hx::ClassOf< ::MainMenuState >();
-HXDLIN( 274)		::MainMenuState_obj::curSelected = (::MainMenuState_obj::curSelected + huh);
-HXLINE( 276)		if ((::MainMenuState_obj::curSelected >= this->menuItems->length)) {
-HXLINE( 277)			::MainMenuState_obj::curSelected = 0;
+            	HX_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_271_changeItem)
+HXDLIN( 271)		 ::MainMenuState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 272)		 ::Dynamic _hx_tmp = ::hx::ClassOf< ::MainMenuState >();
+HXDLIN( 272)		::MainMenuState_obj::curSelected = (::MainMenuState_obj::curSelected + huh);
+HXLINE( 274)		if ((::MainMenuState_obj::curSelected >= this->menuItems->length)) {
+HXLINE( 275)			::MainMenuState_obj::curSelected = 0;
             		}
-HXLINE( 278)		if ((::MainMenuState_obj::curSelected < 0)) {
-HXLINE( 279)			::MainMenuState_obj::curSelected = (this->menuItems->length - 1);
+HXLINE( 276)		if ((::MainMenuState_obj::curSelected < 0)) {
+HXLINE( 277)			::MainMenuState_obj::curSelected = (this->menuItems->length - 1);
             		}
-HXLINE( 281)		this->menuItems->forEach( ::Dynamic(new _hx_Closure_0(_gthis)),null());
+HXLINE( 279)		this->menuItems->forEach( ::Dynamic(new _hx_Closure_0(_gthis)),null());
             	}
 
 
@@ -810,7 +798,7 @@ void MainMenuState_obj::__boot()
 {
 {
             	HX_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_28_boot)
-HXDLIN(  28)		psychEngineVersion = HX_("0.5.1",7a,08,cc,c1);
+HXDLIN(  28)		psychEngineVersion = HX_("FT",4e,3d,00,00);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_b0351dbbcbe2d566_29_boot)

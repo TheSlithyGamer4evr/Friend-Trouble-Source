@@ -8,6 +8,7 @@
 #ifndef INCLUDED_MusicBeatState
 #include <MusicBeatState.h>
 #endif
+HX_DECLARE_CLASS0(Character)
 HX_DECLARE_CLASS0(MusicBeatState)
 HX_DECLARE_CLASS0(StoryMenuState)
 HX_DECLARE_CLASS1(flixel,FlxBasic)
@@ -74,6 +75,7 @@ class HXCPP_CLASS_ATTRIBUTES StoryMenuState_obj : public  ::MusicBeatState_obj
 		 ::flixel::group::FlxTypedGroup grpWeekText;
 		 ::flixel::group::FlxTypedGroup grpWeekCharacters;
 		 ::flixel::group::FlxTypedGroup grpLocks;
+		 ::Character sex;
 		 ::flixel::group::FlxTypedGroup difficultySelectors;
 		 ::flixel::FlxSprite sprDifficulty;
 		 ::flixel::FlxSprite leftArrow;

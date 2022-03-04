@@ -35,7 +35,7 @@ class ApplicationMain
 		app.meta["build"] = "6";
 		app.meta["company"] = "ShadowMario";
 		app.meta["file"] = "Trouble";
-		app.meta["name"] = "Friend Trouble";
+		app.meta["name"] = "Friend Trouble 1.5 indev";
 		app.meta["packageName"] = "com.shadowmario.psychengine";
 		app.meta["version"] = "0.2.7";
 
@@ -57,7 +57,7 @@ class ApplicationMain
 			minimized: false,
 			parameters: {},
 			resizable: true,
-			title: "Friend Trouble",
+			title: "Friend Trouble 1.5 indev",
 			width: 1280,
 			x: null,
 			y: null,
@@ -65,7 +65,7 @@ class ApplicationMain
 
 		attributes.context = {
 			antialiasing: 0,
-			background: 0,
+			background: 3538944,
 			colorDepth: 32,
 			depth: true,
 			hardware: true,
@@ -99,7 +99,7 @@ class ApplicationMain
 		app.createWindow(attributes);
 		
 		#elseif !air
-		app.window.context.attributes.background = 0;
+		app.window.context.attributes.background = 3538944;
 		app.window.frameRate = null;
 		#end
 

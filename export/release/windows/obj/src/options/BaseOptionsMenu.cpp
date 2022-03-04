@@ -606,7 +606,7 @@ HXLINE( 337)			this->boyfriend->kill();
 HXLINE( 338)			this->remove(this->boyfriend,null());
 HXLINE( 339)			this->boyfriend->destroy();
             		}
-HXLINE( 342)		this->boyfriend =  ::Character_obj::__alloc( HX_CTX ,( (Float)(840) ),( (Float)(170) ),HX_("bf",c4,55,00,00),true);
+HXLINE( 342)		this->boyfriend =  ::Character_obj::__alloc( HX_CTX ,( (Float)(600) ),( (Float)(270) ),HX_("cakiebfnino",e9,7e,a8,ed),true);
 HXLINE( 343)		 ::Character _hx_tmp = this->boyfriend;
 HXDLIN( 343)		_hx_tmp->setGraphicSize(::Std_obj::_hx_int((this->boyfriend->get_width() * ((Float)0.75))),null());
 HXLINE( 344)		this->boyfriend->updateHitbox();

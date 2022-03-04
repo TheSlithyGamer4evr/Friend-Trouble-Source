@@ -12044,6 +12044,7 @@
    <depend name="include/StringBuf.h"/>
   </file>
   <file name="src/StoryMenuState.cpp" >
+   <depend name="include/Character.h"/>
    <depend name="include/ClientPrefs.h"/>
    <depend name="include/Controls.h"/>
    <depend name="include/CoolUtil.h"/>
@@ -12634,6 +12635,12 @@
    <depend name="include/lime/text/Font.h"/>
    <depend name="include/openfl/text/Font.h"/>
   </file>
+  <file name="src/__ASSET__OPENFL__assets_fonts_sega_ttf.cpp" >
+   <depend name="include/__ASSET__OPENFL__assets_fonts_sega_ttf.h"/>
+   <depend name="include/__ASSET__assets_fonts_sega_ttf.h"/>
+   <depend name="include/lime/text/Font.h"/>
+   <depend name="include/openfl/text/Font.h"/>
+  </file>
   <file name="src/__ASSET__OPENFL__assets_fonts_pixel_otf.cpp" >
    <depend name="include/__ASSET__OPENFL__assets_fonts_pixel_otf.h"/>
    <depend name="include/__ASSET__assets_fonts_pixel_otf.h"/>
@@ -12963,6 +12970,12 @@
    <depend name="include/haxe/io/Bytes.h"/>
    <depend name="include/lime/text/Font.h"/>
   </file>
+  <file name="src/__ASSET__assets_fonts_sega_ttf.cpp" >
+   <depend name="include/__ASSET__assets_fonts_sega_ttf.h"/>
+   <depend name="include/haxe/Resource.h"/>
+   <depend name="include/haxe/io/Bytes.h"/>
+   <depend name="include/lime/text/Font.h"/>
+  </file>
   <file name="src/__ASSET__assets_fonts_pixel_otf.cpp" >
    <depend name="include/__ASSET__assets_fonts_pixel_otf.h"/>
    <depend name="include/haxe/Resource.h"/>
@@ -13012,6 +13025,7 @@
    <depend name="include/ManifestResources.h"/>
    <depend name="include/Reflect.h"/>
    <depend name="include/__ASSET__OPENFL__assets_fonts_pixel_otf.h"/>
+   <depend name="include/__ASSET__OPENFL__assets_fonts_sega_ttf.h"/>
    <depend name="include/__ASSET__OPENFL__assets_fonts_vcr_ttf.h"/>
    <depend name="include/__ASSET__OPENFL__flixel_fonts_monsterrat_ttf.h"/>
    <depend name="include/__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf.h"/>
@@ -13083,9 +13097,6 @@
    <depend name="include/haxe/IMap.h"/>
    <depend name="include/haxe/Log.h"/>
    <depend name="include/haxe/ds/StringMap.h"/>
-   <depend name="include/lime/app/Application.h"/>
-   <depend name="include/lime/app/IModule.h"/>
-   <depend name="include/lime/app/Module.h"/>
    <depend name="include/options/OptionsState.h"/>
    <depend name="include/sys/FileSystem.h"/>
    <depend name="include/sys/io/File.h"/>
@@ -15500,6 +15511,7 @@
    <depend name="include/__ASSET__flixel_sounds_flixel_ogg.h"/>
    <depend name="include/__ASSET__flixel_sounds_beep_ogg.h"/>
    <depend name="include/__ASSET__assets_fonts_vcr_ttf.h"/>
+   <depend name="include/__ASSET__assets_fonts_sega_ttf.h"/>
    <depend name="include/__ASSET__assets_fonts_pixel_otf.h"/>
    <depend name="include/__ASSET__assets_fonts_fonts_go_here_txt.h"/>
    <depend name="include/MainMenuState.h"/>
@@ -15627,6 +15639,7 @@
 <file name="src/resources/__res_70.cpp" tags="optim-none" />
 <file name="src/resources/__res_71.cpp" tags="optim-none" />
 <file name="src/resources/__res_72.cpp" tags="optim-none" />
+<file name="src/resources/__res_73.cpp" tags="optim-none" />
 </files>
 <files id="__externs__">
 </files>

@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-83,
+				-203
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "sus idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-38,
+				-209
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "sus right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-97,
+				-216
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "sus left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-29,
+				-143
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "sus up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-253
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "sus down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-102,
+				-200
+			],
+			"anim": "laugh",
+			"fps": 24,
+			"name": "sus laugh",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/thejordansarecreased",
+	"position": [
+		-100,
+		0
+	],
+	"healthicon": "slithy",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-30,
+		330
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

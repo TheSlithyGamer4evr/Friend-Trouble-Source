@@ -67,7 +67,6 @@ class HXCPP_CLASS_ATTRIBUTES NoteOffsetState_obj : public  ::MusicBeatState_obj
 		::String __ToString() const { return HX_("NoteOffsetState",8c,82,4f,5a); }
 
 		 ::Character boyfriend;
-		 ::Character gf;
 		 ::flixel::FlxCamera camHUD;
 		 ::flixel::FlxCamera camGame;
 		 ::flixel::FlxCamera camOther;

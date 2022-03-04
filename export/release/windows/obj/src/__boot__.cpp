@@ -1434,6 +1434,9 @@
 #ifndef INCLUDED___ASSET__assets_fonts_vcr_ttf
 #include <__ASSET__assets_fonts_vcr_ttf.h>
 #endif
+#ifndef INCLUDED___ASSET__assets_fonts_sega_ttf
+#include <__ASSET__assets_fonts_sega_ttf.h>
+#endif
 #ifndef INCLUDED___ASSET__assets_fonts_pixel_otf
 #include <__ASSET__assets_fonts_pixel_otf.h>
 #endif
@@ -3543,6 +3546,9 @@
 #ifndef INCLUDED___ASSET__OPENFL__assets_fonts_vcr_ttf
 #include <__ASSET__OPENFL__assets_fonts_vcr_ttf.h>
 #endif
+#ifndef INCLUDED___ASSET__OPENFL__assets_fonts_sega_ttf
+#include <__ASSET__OPENFL__assets_fonts_sega_ttf.h>
+#endif
 #ifndef INCLUDED___ASSET__OPENFL__assets_fonts_pixel_otf
 #include <__ASSET__OPENFL__assets_fonts_pixel_otf.h>
 #endif
@@ -4250,6 +4256,7 @@ __files__boot();
 ::__ASSET__flixel_sounds_flixel_ogg_obj::__register();
 ::__ASSET__flixel_sounds_beep_ogg_obj::__register();
 ::__ASSET__assets_fonts_vcr_ttf_obj::__register();
+::__ASSET__assets_fonts_sega_ttf_obj::__register();
 ::__ASSET__assets_fonts_pixel_otf_obj::__register();
 ::__ASSET__assets_fonts_fonts_go_here_txt_obj::__register();
 ::MainMenuState_obj::__register();
@@ -4953,6 +4960,7 @@ __files__boot();
 ::__ASSET__OPENFL__flixel_fonts_monsterrat_ttf_obj::__register();
 ::__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf_obj::__register();
 ::__ASSET__OPENFL__assets_fonts_vcr_ttf_obj::__register();
+::__ASSET__OPENFL__assets_fonts_sega_ttf_obj::__register();
 ::__ASSET__OPENFL__assets_fonts_pixel_otf_obj::__register();
 ::lime::graphics::Image_obj::__register();
 ::lime::text::Font_obj::__register();
@@ -5133,6 +5141,7 @@ __files__boot();
 ::MainMenuState_obj::__boot();
 ::__ASSET__assets_fonts_fonts_go_here_txt_obj::__boot();
 ::__ASSET__assets_fonts_pixel_otf_obj::__boot();
+::__ASSET__assets_fonts_sega_ttf_obj::__boot();
 ::__ASSET__assets_fonts_vcr_ttf_obj::__boot();
 ::__ASSET__flixel_sounds_beep_ogg_obj::__boot();
 ::__ASSET__flixel_sounds_flixel_ogg_obj::__boot();

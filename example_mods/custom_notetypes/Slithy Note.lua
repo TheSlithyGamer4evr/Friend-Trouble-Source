@@ -4,7 +4,7 @@ function onCreate()
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Check if the note is an Instakill Note
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Slithy Note' then
-			setPropertyFromGroup('unspawnNotes', i, 'texture', 'SLITHYNOTE_assets'); --Change texture
+			setPropertyFromGroup('unspawnNotes', i, 'texture', 'notes/SLITHYNOTE_assets'); --Change texture
 
 			if getPropertyFromGroup('unspawnNotes', i, 'mustPress') then --Doesn't let Dad/Opponent notes get ignored
 				setPropertyFromGroup('unspawnNotes', i, 'ignoreNote', true); --Miss has no penalties
@@ -22,8 +22,9 @@ end
 function goodNoteHit(id, noteData, noteType, isSustainNote)
 	if noteType == 'Slithy Note' then
 		
-		makeLuaSprite('jumpscare', 's lith yjumpsca re', 100, 100); --sprite shit -lunar
-		scaleObject('jumpscare', 2.5, 2.5);
+		makeLuaSprite('jumpscare', 'FT assets/mechanic stuff/s lith yjumpsca re', -200, 0);
+		scaleObject('jumpscare', 2.5, 2.1);
+		setObjectCamera('jumpscare', 'camother')
 
 		addLuaSprite('jumpscare', true); 
 
@@ -33,8 +34,6 @@ function goodNoteHit(id, noteData, noteType, isSustainNote)
 
 		doTweenAlpha('fade in', 'jumpscare', 1, 0.4, 'linear'); 
 		runTimer('drain', 0.01, 330) 
-
-		--setProperty('health', -1);
 
 		function onTweenCompleted(tag)
 			if (tag == 'fade in') then 
@@ -82,7 +81,6 @@ function goodNoteHit(id, noteData, noteType, isSustainNote)
 
 					close(true);
 				end
-				--setProperty('health', -0.01);
 			end
 		end
 	end
@@ -91,6 +89,6 @@ end
 
 function noteMiss(id, noteData, noteType, isSustainNote)
 	if noteType == 'Slithy Note' then
-		-- put something here if you want
-	end
+		playSound('missdanger', 1);
+	end 
 end

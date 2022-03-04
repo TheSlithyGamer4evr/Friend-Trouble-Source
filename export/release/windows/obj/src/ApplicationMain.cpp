@@ -165,7 +165,7 @@ HXLINE( 116)			::ApplicationMain_obj::start(stage);
             	HX_GC_STACKFRAME(&_hx_pos_6fcf922b66429816_30_create)
 HXLINE(  31)		 ::openfl::display::Application app =  ::openfl::display::Application_obj::__alloc( HX_CTX );
 HXLINE(  33)		::ManifestResources_obj::init(config);
-HXLINE(  35)		app->meta->set(HX_("build",2e,db,ea,ba),HX_("5",35,00,00,00));
+HXLINE(  35)		app->meta->set(HX_("build",2e,db,ea,ba),HX_("6",36,00,00,00));
 HXLINE(  36)		app->meta->set(HX_("company",3d,15,69,83),HX_("ShadowMario",e4,7d,20,5e));
 HXLINE(  37)		app->meta->set(HX_("file",7c,ce,bb,43),HX_("Trouble",97,2f,d5,70));
 HXLINE(  38)		app->meta->set(HX_("name",4b,72,ff,48),HX_("Friend Trouble",f5,ef,d0,b7));
@@ -192,7 +192,7 @@ HXLINE(  66)		attributes->__SetField(HX_("context",ef,95,77,19), ::Dynamic(::hx:
             			->setFixed(0,HX_("stencil",fc,bd,03,80),true)
             			->setFixed(1,HX_("depth",03,f1,29,d7),true)
             			->setFixed(2,HX_("colorDepth",a0,08,96,fb),32)
-            			->setFixed(3,HX_("background",ee,93,1d,26),2691345)
+            			->setFixed(3,HX_("background",ee,93,1d,26),3538944)
             			->setFixed(4,HX_("vsync",d1,2d,a8,3d),false)
             			->setFixed(5,HX_("antialiasing",f4,16,b3,48),0)
             			->setFixed(6,HX_("type",ba,f2,08,4d),null())

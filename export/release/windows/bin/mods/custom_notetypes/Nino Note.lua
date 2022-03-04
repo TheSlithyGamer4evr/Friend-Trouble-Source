@@ -3,7 +3,7 @@ function onCreate()
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Check if the note is a Nino Note
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Nino Note' then
-			setPropertyFromGroup('unspawnNotes', i, 'texture', 'NINONOTE_ASSETS'); --Change texture
+			setPropertyFromGroup('unspawnNotes', i, 'texture', 'notes/NINONOTE_ASSETS'); --Change texture
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0'); --Default value is: 0.023, health gained on hit
 			setPropertyFromGroup('unspawnNotes', i, 'missHealth', '0.6'); --Change amount of health to take when you miss like a fucking moron
 			

@@ -3,7 +3,7 @@ function onCreate()
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Check if the note is a Knife Note
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Knife Note' then
-			setPropertyFromGroup('unspawnNotes', i, 'texture', 'KNIFENOTE_ASSETS'); --Change texture
+			setPropertyFromGroup('unspawnNotes', i, 'texture', 'notes/KNIFENOTE_ASSETS'); --Change texture
 			setPropertyFromGroup('unspawnNotes', i, 'missHealth', 0.6); --Change amount of health to take when you miss like a fucking moron
 		end
 	end

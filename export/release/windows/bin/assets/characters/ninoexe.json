@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				120,
 				230
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "nino idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "nino idle"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				115,
 				217
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "nino left"
+			"fps": 24,
+			"name": "nino left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				56,
 				-50
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "nino down"
+			"fps": 24,
+			"name": "nino down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				87,
 				233
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "nino up"
+			"fps": 24,
+			"name": "nino up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				255,
 				83
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "nino right"
+			"fps": 24,
+			"name": "nino right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -65,9 +65,9 @@
 	"healthicon": "ninoexe",
 	"flip_x": false,
 	"healthbar_colors": [
-		155,
-		155,
-		155
+		114,
+		89,
+		89
 	],
 	"camera_position": [
 		-50,

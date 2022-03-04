@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				140,
+				-260
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "pun idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				121,
+				-256
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "pun left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				149,
+				-257
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "pun down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				140,
+				-200
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "pun up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				84,
+				-259
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "pun right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pun_exe_assets",
+	"position": [
+		180,
+		70
+	],
+	"healthicon": "punexe",
+	"flip_x": false,
+	"healthbar_colors": [
+		27,
+		122,
+		138
+	],
+	"camera_position": [
+		-260,
+		260
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

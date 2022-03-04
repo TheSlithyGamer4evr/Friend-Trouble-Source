@@ -14,7 +14,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_b3ea4ee380faf667_307_new,"__ASSET__flixel_fonts_nokiafc22_ttf","new",0x22f03f2a,"__ASSET__flixel_fonts_nokiafc22_ttf.new","lime/_internal/macros/AssetsMacro.hx",307,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_52fc57ab4b28397c_792_boot,"__ASSET__flixel_fonts_nokiafc22_ttf","boot",0x67600628,"__ASSET__flixel_fonts_nokiafc22_ttf.boot","ManifestResources.hx",792,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_52fc57ab4b28397c_795_boot,"__ASSET__flixel_fonts_nokiafc22_ttf","boot",0x67600628,"__ASSET__flixel_fonts_nokiafc22_ttf.boot","ManifestResources.hx",795,0xf77aa668)
 
 void __ASSET__flixel_fonts_nokiafc22_ttf_obj::__construct(){
             	HX_STACKFRAME(&_hx_pos_b3ea4ee380faf667_307_new)
@@ -135,8 +135,8 @@ void __ASSET__flixel_fonts_nokiafc22_ttf_obj::__register()
 void __ASSET__flixel_fonts_nokiafc22_ttf_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_52fc57ab4b28397c_792_boot)
-HXDLIN( 792)		resourceName = HX_("LIME_font___ASSET__flixel_fonts_nokiafc22_ttf",32,8e,cf,38);
+            	HX_STACKFRAME(&_hx_pos_52fc57ab4b28397c_795_boot)
+HXDLIN( 795)		resourceName = HX_("LIME_font___ASSET__flixel_fonts_nokiafc22_ttf",32,8e,cf,38);
             	}
 }
 

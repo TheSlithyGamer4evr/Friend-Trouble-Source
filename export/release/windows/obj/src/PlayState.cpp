@@ -1455,7 +1455,7 @@ HXDLIN( 870)		Float _hx_tmp21 = (this->timeBarBG->y + 4);
 HXDLIN( 870)		int _hx_tmp22 = ::Std_obj::_hx_int((this->timeBarBG->get_width() - ( (Float)(8) )));
 HXDLIN( 870)		this->timeBar =  ::flixel::ui::FlxBar_obj::__alloc( HX_CTX ,_hx_tmp20,_hx_tmp21,::flixel::ui::FlxBarFillDirection_obj::LEFT_TO_RIGHT_dyn(),_hx_tmp22,::Std_obj::_hx_int((this->timeBarBG->get_height() - ( (Float)(8) ))),::hx::ObjectPtr<OBJ_>(this),HX_("songPercent",70,03,67,31),0,1,null());
 HXLINE( 872)		this->timeBar->scrollFactor->set(null(),null());
-HXLINE( 873)		this->timeBar->createFilledBar(-16777216,-1,null(),null());
+HXLINE( 873)		this->timeBar->createFilledBar(-12124160,-1,null(),null());
 HXLINE( 874)		this->timeBar->set_numDivisions(800);
 HXLINE( 875)		this->timeBar->set_alpha(( (Float)(0) ));
 HXLINE( 876)		this->timeBar->set_visible(showTime);

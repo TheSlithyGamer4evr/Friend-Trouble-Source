@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="him.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="him0000" x="0" y="0" width="126" height="128"/>
+	<SubTexture name="him0001" x="0" y="0" width="126" height="128"/>
+	<SubTexture name="him0002" x="126" y="0" width="126" height="128"/>
+	<SubTexture name="him0003" x="126" y="0" width="126" height="128"/>
+	<SubTexture name="him0004" x="252" y="0" width="126" height="128"/>
+	<SubTexture name="him0005" x="252" y="0" width="126" height="128"/>
+	<SubTexture name="him0006" x="378" y="0" width="126" height="128"/>
+	<SubTexture name="him0007" x="378" y="0" width="126" height="128"/>
+	<SubTexture name="him0008" x="0" y="128" width="126" height="128"/>
+	<SubTexture name="him0009" x="0" y="128" width="126" height="128"/>
+	<SubTexture name="him0010" x="126" y="128" width="126" height="128"/>
+	<SubTexture name="him0011" x="126" y="128" width="126" height="128"/>
+	<SubTexture name="him0012" x="252" y="128" width="126" height="128"/>
+	<SubTexture name="him0013" x="252" y="128" width="126" height="128"/>
+	<SubTexture name="him0014" x="378" y="128" width="126" height="128"/>
+	<SubTexture name="him0015" x="378" y="128" width="126" height="128"/>
+	<SubTexture name="him0016" x="0" y="256" width="126" height="128"/>
+	<SubTexture name="him0017" x="0" y="256" width="126" height="128"/>
+</TextureAtlas>
